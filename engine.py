@@ -123,9 +123,24 @@ def main(state_path, data_dir):
         # Gleicher Tag: Stop oder Ziel schon erreicht? Bei beidem zählt der Stop.
         if b['l'] <= stop: tr.update(ausstieg=r2(stop), datumAus=heute, notiz=tr['notiz'] + ' · Ausstieg: Stop am Einstiegstag')
         elif b['h'] >= ziel: tr.update(ausstieg=ziel, datumAus=heute, notiz=tr['notiz'] + ' · Ausstieg: Ziel 2R am Einstiegstag')
-        else: offen.append(dict(tr, id='neu-' + sym))
+        else:
+            tr.update(kursAktuell=r2(b['c']), kursDatum=heute)
+            offen.append(dict(tr, id='neu-' + sym))
         if tr['ausstieg'] is not None: equity += pnl(tr)
         plan['fills'].append({'signal_id': sg['id'], 'trade_id': sg['id'].replace('s-', 't-', 1), 'trade': tr})
+
+    # --- 2b. Aktueller Stand offener Positionen (für die Ansicht im Depot) ---
+    plan['positionen'] = []
+    for t in offen:
+        if t['id'].startswith('neu-') or any(x['id'] == t['id'] for x in plan['exits']):
+            continue
+        b = bar(t['ticker'])
+        if not b:
+            continue
+        risiko = (t['einstieg'] - t['stop']) * t['stueck']
+        offen_pnl = (b['c'] - t['einstieg']) * t['stueck']
+        plan['positionen'].append({'id': t['id'], 'ticker': t['ticker'], 'kursAktuell': r2(b['c']), 'kursDatum': heute,
+                                   'pnl_offen': r2(offen_pnl), 'r_offen': r2(offen_pnl / risiko) if risiko > 0 else None})
 
     # --- 3. Notbremsen ---
     alle = geschlossen + [dict(t, ausstieg=x['ausstieg'], datumAus=x['datumAus']) for x in plan['exits'] for t in trades if t['id'] == x['id']] \
