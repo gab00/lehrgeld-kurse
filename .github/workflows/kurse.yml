@@ -2,11 +2,15 @@ name: Tageskurse holen
 
 on:
   schedule:
-    # Mo–Fr nach US-Börsenschluss (20:00 UTC Sommerzeit, 21:00 UTC Winterzeit).
-    # Drei Läufe, falls GitHub verspätet startet oder Yahoo kurz ausfällt.
-    - cron: "20 20 * * 1-5"
+    # GitHub startet geplante Abläufe nur nach Möglichkeit und lässt bei Last
+    # einzelne Termine ausfallen. Deshalb mehrere Termine über die Nacht verteilt
+    # (UTC). US-Börsenschluss: 20:00 UTC Sommerzeit, 21:00 UTC Winterzeit.
+    # Die Auswertung läuft erst am Morgen danach und nimmt den letzten Stand.
     - cron: "20 21 * * 1-5"
-    - cron: "50 21 * * 1-5"
+    - cron: "50 22 * * 1-5"
+    - cron: "35 0 * * 2-6"
+    - cron: "35 2 * * 2-6"
+    - cron: "10 4 * * 2-6"
   workflow_dispatch:
 
 permissions:
@@ -38,5 +42,6 @@ jobs:
             echo "Keine neuen Kurse."
           else
             git commit -m "Kurse $(date -u +%Y-%m-%d)"
+            git pull --rebase origin main
             git push
           fi
