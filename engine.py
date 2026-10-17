@@ -55,7 +55,7 @@ def main(state_path, data_dir):
     st = json.load(open(state_path))
     heute = st['heute']
     s = st['settings']
-    start, risk_pct = float(s.get('startkapital', 50)), float(s.get('risikoPct', 1))
+    start, risk_pct = float(s.get('startkapital', 500)), float(s.get('risikoPct', 1))
     trades = [t for t in st.get('trades', []) if not t.get('beispiel')]
     signale = [x for x in st.get('signale', []) if x.get('status') == 'wartet']
     earnings = st.get('earnings', {})
