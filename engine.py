@@ -105,6 +105,8 @@ def main(state_path, data_dir):
 
     # --- 2. Wartende Signale zur Eröffnung ausführen ---
     for sg in signale:
+        if (sg.get('datumSignal') or '') >= heute:
+            continue  # Signal vom selben Tag: Kauf erst zur nächsten Eröffnung
         sym = sg['ticker']; b = bar(sym)
         if not b:
             plan['fehlend'].append(sym); continue
@@ -163,8 +165,10 @@ def main(state_path, data_dir):
     if sperre: plan['hinweise'].append(sperre)
 
     # --- 4. Neue Signale ---
-    belegt = {t['ticker'] for t in offen if not any(x['id'] == t['id'] for x in plan['exits'])}
-    noch_offen = len([t for t in offen if not any(x['id'] == t['id'] for x in plan['exits'])])
+    wartend = [sg for sg in signale if not any(f['signal_id'] == sg['id'] for f in plan['fills'])
+               and not any(c['id'] == sg['id'] for c in plan['cancels'])]
+    belegt = {t['ticker'] for t in offen if not any(x['id'] == t['id'] for x in plan['exits'])} | {sg['ticker'] for sg in wartend}
+    noch_offen = len([t for t in offen if not any(x['id'] == t['id'] for x in plan['exits'])]) + len(wartend)
     frei = MAX_OFFEN - noch_offen
     kand = []
     for sym, rows in kurse.items():
