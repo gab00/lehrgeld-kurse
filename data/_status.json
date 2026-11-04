@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-03T11:51:14+00:00",
+ "aktualisiert": "2026-11-04T01:28:35+00:00",
  "letzter_handelstag": "2026-11-02",
  "ok": [
   "NVDA",
@@ -66,5 +66,5 @@
   "KO": "2026-11-02",
   "PG": "2026-11-02"
  },
- "quelle": "Yahoo Finance über yfinance 1.7.0"
+ "quelle": "Yahoo Finance über yfinance 1.8.0"
 }
