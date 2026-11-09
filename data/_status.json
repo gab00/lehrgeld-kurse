@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-07T10:59:30+00:00",
+ "aktualisiert": "2026-11-09T12:43:15+00:00",
  "letzter_handelstag": "2026-11-06",
  "ok": [
   "NVDA",
@@ -65,6 +65,10 @@
   "GE": "2026-11-06",
   "KO": "2026-11-06",
   "PG": "2026-11-06"
+ },
+ "extras": {
+  "SP500": "2026-11-06",
+  "EURUSD": "2026-11-09"
  },
  "quelle": "Yahoo Finance über yfinance 1.8.0"
 }
