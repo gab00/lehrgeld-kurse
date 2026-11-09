@@ -21,6 +21,8 @@ UNIVERSUM = [
     "JPM", "WMT", "AMD", "V", "XOM", "JNJ", "MA", "INTC", "ABBV", "CSCO",
     "BAC", "AMAT", "COST", "CAT", "CVX", "UNH", "LRCX", "GE", "KO", "PG",
 ]
+# Zusatzreihen für den Vergleich mit dem echten Depot (nicht für Handelsentscheidungen)
+EXTRAS = {"SP500": "^GSPC", "EURUSD": "EURUSD=X"}
 ZEITRAUM = "15mo"      # reicht für die 200-Tage-Linie plus Rückblick
 MIN_ZEILEN = 220
 
@@ -42,13 +44,15 @@ def hole(symbol):
     return None
 
 
-def schreibe(symbol, df):
+def schreibe(symbol, df, ordner=None):
     zeilen = ["timestamp,open,high,low,close,volume"]
     for ts, r in df.sort_index(ascending=False).iterrows():
         zeilen.append(
-            f"{ts.strftime('%Y-%m-%d')},{r['Open']:.4f},{r['High']:.4f},{r['Low']:.4f},{r['Close']:.4f},{int(r['Volume'])}"
+            f"{ts.strftime('%Y-%m-%d')},{r['Open']:.4f},{r['High']:.4f},{r['Low']:.4f},{r['Close']:.4f},{int(r['Volume'] or 0)}"
         )
-    (DATA / f"{symbol}.csv").write_text("\n".join(zeilen) + "\n")
+    ziel = ordner or DATA
+    ziel.mkdir(exist_ok=True)
+    (ziel / f"{symbol}.csv").write_text("\n".join(zeilen) + "\n")
     return df.index.max().strftime("%Y-%m-%d")
 
 
@@ -63,12 +67,19 @@ def main():
         letzte[sym] = schreibe(sym, df)
         ok.append(sym)
         time.sleep(1)
+    extras = {}
+    for name, sym in EXTRAS.items():
+        df = hole(sym)
+        if df is not None:
+            extras[name] = schreibe(name, df, DATA / "extra")
+        time.sleep(1)
     status = {
         "aktualisiert": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "letzter_handelstag": max(letzte.values()) if letzte else None,
         "ok": ok,
         "fehlend": fehlend,
         "letzter_tag_je_aktie": letzte,
+        "extras": extras,
         "quelle": "Yahoo Finance über yfinance " + yf.__version__,
     }
     (DATA / "_status.json").write_text(json.dumps(status, indent=1, ensure_ascii=False) + "\n")
