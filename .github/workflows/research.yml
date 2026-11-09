@@ -1,6 +1,9 @@
 name: Index-Historie holen
 
 on:
+  schedule:
+    # monatlich vor dem Monatsrückblick (erster Samstag): am 1. jedes Monats
+    - cron: "40 3 1 * *"
   workflow_dispatch:
 
 permissions:
@@ -9,7 +12,7 @@ permissions:
 jobs:
   holen:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
