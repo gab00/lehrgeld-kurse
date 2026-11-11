@@ -15,8 +15,17 @@ from fetch import UNIVERSUM  # noqa: E402
 
 OUT = Path(__file__).parent / "earnings"
 OUT.mkdir(exist_ok=True)
+alle = list(UNIVERSUM)
+hist = Path(__file__).parent / "top30_history.json"
+if hist.exists():
+    import json
+    for liste in json.loads(hist.read_text()).get("lists", {}).values():
+        for e in liste:
+            t = e.get("yahoo_today")
+            if t and t not in alle:
+                alle.append(t)
 ok = 0
-for sym in UNIVERSUM:
+for sym in alle:
     tage = set()
     for versuch in range(3):
         try:

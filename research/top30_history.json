@@ -1,0 +1,4184 @@
+{
+ "lists": {
+  "2005": [
+   {
+    "name": "General Electric",
+    "ticker_then": "GE",
+    "yahoo_today": "GE",
+    "note": "Yahoo history split/spin-off adjusted (1:8 reverse split 2021; GE HealthCare 2023, GE Vernova 2024 spun off)"
+   },
+   {
+    "name": "Exxon Mobil",
+    "ticker_then": "XOM",
+    "yahoo_today": "XOM",
+    "note": ""
+   },
+   {
+    "name": "Citigroup",
+    "ticker_then": "C",
+    "yahoo_today": "C",
+    "note": "1:10 reverse split 2011 (adjusted in Yahoo)"
+   },
+   {
+    "name": "Microsoft",
+    "ticker_then": "MSFT",
+    "yahoo_today": "MSFT",
+    "note": ""
+   },
+   {
+    "name": "Wal-Mart Stores",
+    "ticker_then": "WMT",
+    "yahoo_today": "WMT",
+    "note": ""
+   },
+   {
+    "name": "Procter & Gamble",
+    "ticker_then": "PG",
+    "yahoo_today": "PG",
+    "note": ""
+   },
+   {
+    "name": "Bank of America",
+    "ticker_then": "BAC",
+    "yahoo_today": "BAC",
+    "note": ""
+   },
+   {
+    "name": "Johnson & Johnson",
+    "ticker_then": "JNJ",
+    "yahoo_today": "JNJ",
+    "note": ""
+   },
+   {
+    "name": "American International Group",
+    "ticker_then": "AIG",
+    "yahoo_today": "AIG",
+    "note": "1:20 reverse split 2009 (adjusted in Yahoo)"
+   },
+   {
+    "name": "Pfizer",
+    "ticker_then": "PFE",
+    "yahoo_today": "PFE",
+    "note": ""
+   },
+   {
+    "name": "Altria Group",
+    "ticker_then": "MO",
+    "yahoo_today": "MO",
+    "note": "then incl. Kraft (spun off 2007) and Philip Morris International (spun off 2008)"
+   },
+   {
+    "name": "Intel",
+    "ticker_then": "INTC",
+    "yahoo_today": "INTC",
+    "note": ""
+   },
+   {
+    "name": "JPMorgan Chase",
+    "ticker_then": "JPM",
+    "yahoo_today": "JPM",
+    "note": ""
+   },
+   {
+    "name": "IBM",
+    "ticker_then": "IBM",
+    "yahoo_today": "IBM",
+    "note": ""
+   },
+   {
+    "name": "Chevron",
+    "ticker_then": "CVX",
+    "yahoo_today": "CVX",
+    "note": ""
+   },
+   {
+    "name": "Cisco Systems",
+    "ticker_then": "CSCO",
+    "yahoo_today": "CSCO",
+    "note": ""
+   },
+   {
+    "name": "Wells Fargo",
+    "ticker_then": "WFC",
+    "yahoo_today": "WFC",
+    "note": ""
+   },
+   {
+    "name": "PepsiCo",
+    "ticker_then": "PEP",
+    "yahoo_today": "PEP",
+    "note": ""
+   },
+   {
+    "name": "Amgen",
+    "ticker_then": "AMGN",
+    "yahoo_today": "AMGN",
+    "note": ""
+   },
+   {
+    "name": "Coca-Cola",
+    "ticker_then": "KO",
+    "yahoo_today": "KO",
+    "note": ""
+   },
+   {
+    "name": "AT&T",
+    "ticker_then": "T",
+    "yahoo_today": "T",
+    "note": "AT&T Inc. (former SBC Communications); Yahoo T = SBC/AT&T Inc. history"
+   },
+   {
+    "name": "Home Depot",
+    "ticker_then": "HD",
+    "yahoo_today": "HD",
+    "note": ""
+   },
+   {
+    "name": "UnitedHealth Group",
+    "ticker_then": "UNH",
+    "yahoo_today": "UNH",
+    "note": ""
+   },
+   {
+    "name": "Verizon Communications",
+    "ticker_then": "VZ",
+    "yahoo_today": "VZ",
+    "note": ""
+   },
+   {
+    "name": "United Parcel Service",
+    "ticker_then": "UPS",
+    "yahoo_today": "UPS",
+    "note": ""
+   },
+   {
+    "name": "Wachovia",
+    "ticker_then": "WB",
+    "yahoo_today": null,
+    "note": "acquired by Wells Fargo 12/2008"
+   },
+   {
+    "name": "Hewlett-Packard",
+    "ticker_then": "HPQ",
+    "yahoo_today": "HPQ",
+    "note": "today HP Inc.; history adjusted for 2015 Hewlett Packard Enterprise spin-off"
+   },
+   {
+    "name": "Time Warner",
+    "ticker_then": "TWX",
+    "yahoo_today": null,
+    "note": "acquired by AT&T 6/2018"
+   },
+   {
+    "name": "ConocoPhillips",
+    "ticker_then": "COP",
+    "yahoo_today": "COP",
+    "note": "history adjusted for 2012 Phillips 66 spin-off"
+   },
+   {
+    "name": "Qualcomm",
+    "ticker_then": "QCOM",
+    "yahoo_today": "QCOM",
+    "note": ""
+   }
+  ],
+  "2006": [
+   {
+    "name": "Exxon Mobil",
+    "ticker_then": "XOM",
+    "yahoo_today": "XOM",
+    "note": ""
+   },
+   {
+    "name": "General Electric",
+    "ticker_then": "GE",
+    "yahoo_today": "GE",
+    "note": "Yahoo history split/spin-off adjusted (1:8 reverse split 2021; GE HealthCare 2023, GE Vernova 2024 spun off)"
+   },
+   {
+    "name": "Citigroup",
+    "ticker_then": "C",
+    "yahoo_today": "C",
+    "note": "1:10 reverse split 2011 (adjusted in Yahoo)"
+   },
+   {
+    "name": "Microsoft",
+    "ticker_then": "MSFT",
+    "yahoo_today": "MSFT",
+    "note": ""
+   },
+   {
+    "name": "Bank of America",
+    "ticker_then": "BAC",
+    "yahoo_today": "BAC",
+    "note": ""
+   },
+   {
+    "name": "AT&T",
+    "ticker_then": "T",
+    "yahoo_today": "T",
+    "note": "AT&T Inc. (former SBC Communications); Yahoo T = SBC/AT&T Inc. history"
+   },
+   {
+    "name": "Procter & Gamble",
+    "ticker_then": "PG",
+    "yahoo_today": "PG",
+    "note": ""
+   },
+   {
+    "name": "Wal-Mart Stores",
+    "ticker_then": "WMT",
+    "yahoo_today": "WMT",
+    "note": ""
+   },
+   {
+    "name": "Johnson & Johnson",
+    "ticker_then": "JNJ",
+    "yahoo_today": "JNJ",
+    "note": ""
+   },
+   {
+    "name": "Pfizer",
+    "ticker_then": "PFE",
+    "yahoo_today": "PFE",
+    "note": ""
+   },
+   {
+    "name": "American International Group",
+    "ticker_then": "AIG",
+    "yahoo_today": "AIG",
+    "note": "1:20 reverse split 2009 (adjusted in Yahoo)"
+   },
+   {
+    "name": "Altria Group",
+    "ticker_then": "MO",
+    "yahoo_today": "MO",
+    "note": "then incl. Kraft (spun off 2007) and Philip Morris International (spun off 2008)"
+   },
+   {
+    "name": "JPMorgan Chase",
+    "ticker_then": "JPM",
+    "yahoo_today": "JPM",
+    "note": ""
+   },
+   {
+    "name": "Cisco Systems",
+    "ticker_then": "CSCO",
+    "yahoo_today": "CSCO",
+    "note": ""
+   },
+   {
+    "name": "Chevron",
+    "ticker_then": "CVX",
+    "yahoo_today": "CVX",
+    "note": ""
+   },
+   {
+    "name": "IBM",
+    "ticker_then": "IBM",
+    "yahoo_today": "IBM",
+    "note": ""
+   },
+   {
+    "name": "Wells Fargo",
+    "ticker_then": "WFC",
+    "yahoo_today": "WFC",
+    "note": ""
+   },
+   {
+    "name": "ConocoPhillips",
+    "ticker_then": "COP",
+    "yahoo_today": "COP",
+    "note": "history adjusted for 2012 Phillips 66 spin-off"
+   },
+   {
+    "name": "Intel",
+    "ticker_then": "INTC",
+    "yahoo_today": "INTC",
+    "note": ""
+   },
+   {
+    "name": "Coca-Cola",
+    "ticker_then": "KO",
+    "yahoo_today": "KO",
+    "note": ""
+   },
+   {
+    "name": "Hewlett-Packard",
+    "ticker_then": "HPQ",
+    "yahoo_today": "HPQ",
+    "note": "today HP Inc.; history adjusted for 2015 Hewlett Packard Enterprise spin-off"
+   },
+   {
+    "name": "Verizon Communications",
+    "ticker_then": "VZ",
+    "yahoo_today": "VZ",
+    "note": ""
+   },
+   {
+    "name": "Wachovia",
+    "ticker_then": "WB",
+    "yahoo_today": null,
+    "note": "acquired by Wells Fargo 12/2008"
+   },
+   {
+    "name": "PepsiCo",
+    "ticker_then": "PEP",
+    "yahoo_today": "PEP",
+    "note": ""
+   },
+   {
+    "name": "Google",
+    "ticker_then": "GOOG",
+    "yahoo_today": "GOOGL",
+    "note": "Class A; Class A+C weights combined"
+   },
+   {
+    "name": "Merck",
+    "ticker_then": "MRK",
+    "yahoo_today": "MRK",
+    "note": ""
+   },
+   {
+    "name": "Oracle",
+    "ticker_then": "ORCL",
+    "yahoo_today": "ORCL",
+    "note": ""
+   },
+   {
+    "name": "Comcast",
+    "ticker_then": "CMCSA",
+    "yahoo_today": "CMCSA",
+    "note": ""
+   },
+   {
+    "name": "Time Warner",
+    "ticker_then": "TWX",
+    "yahoo_today": null,
+    "note": "acquired by AT&T 6/2018"
+   },
+   {
+    "name": "Morgan Stanley",
+    "ticker_then": "MS",
+    "yahoo_today": "MS",
+    "note": ""
+   }
+  ],
+  "2007": [
+   {
+    "name": "Exxon Mobil",
+    "ticker_then": "XOM",
+    "yahoo_today": "XOM",
+    "note": ""
+   },
+   {
+    "name": "General Electric",
+    "ticker_then": "GE",
+    "yahoo_today": "GE",
+    "note": "Yahoo history split/spin-off adjusted (1:8 reverse split 2021; GE HealthCare 2023, GE Vernova 2024 spun off)"
+   },
+   {
+    "name": "Microsoft",
+    "ticker_then": "MSFT",
+    "yahoo_today": "MSFT",
+    "note": ""
+   },
+   {
+    "name": "AT&T",
+    "ticker_then": "T",
+    "yahoo_today": "T",
+    "note": "AT&T Inc. (former SBC Communications); Yahoo T = SBC/AT&T Inc. history"
+   },
+   {
+    "name": "Procter & Gamble",
+    "ticker_then": "PG",
+    "yahoo_today": "PG",
+    "note": ""
+   },
+   {
+    "name": "Chevron",
+    "ticker_then": "CVX",
+    "yahoo_today": "CVX",
+    "note": ""
+   },
+   {
+    "name": "Wal-Mart Stores",
+    "ticker_then": "WMT",
+    "yahoo_today": "WMT",
+    "note": ""
+   },
+   {
+    "name": "Johnson & Johnson",
+    "ticker_then": "JNJ",
+    "yahoo_today": "JNJ",
+    "note": ""
+   },
+   {
+    "name": "Bank of America",
+    "ticker_then": "BAC",
+    "yahoo_today": "BAC",
+    "note": ""
+   },
+   {
+    "name": "Apple",
+    "ticker_then": "AAPL",
+    "yahoo_today": "AAPL",
+    "note": ""
+   },
+   {
+    "name": "Cisco Systems",
+    "ticker_then": "CSCO",
+    "yahoo_today": "CSCO",
+    "note": ""
+   },
+   {
+    "name": "Google",
+    "ticker_then": "GOOG",
+    "yahoo_today": "GOOGL",
+    "note": "Class A; Class A+C weights combined"
+   },
+   {
+    "name": "Altria Group",
+    "ticker_then": "MO",
+    "yahoo_today": "MO",
+    "note": "then incl. Kraft (spun off 2007) and Philip Morris International (spun off 2008)"
+   },
+   {
+    "name": "Intel",
+    "ticker_then": "INTC",
+    "yahoo_today": "INTC",
+    "note": ""
+   },
+   {
+    "name": "Pfizer",
+    "ticker_then": "PFE",
+    "yahoo_today": "PFE",
+    "note": ""
+   },
+   {
+    "name": "IBM",
+    "ticker_then": "IBM",
+    "yahoo_today": "IBM",
+    "note": ""
+   },
+   {
+    "name": "Citigroup",
+    "ticker_then": "C",
+    "yahoo_today": "C",
+    "note": "1:10 reverse split 2011 (adjusted in Yahoo)"
+   },
+   {
+    "name": "American International Group",
+    "ticker_then": "AIG",
+    "yahoo_today": "AIG",
+    "note": "1:20 reverse split 2009 (adjusted in Yahoo)"
+   },
+   {
+    "name": "JPMorgan Chase",
+    "ticker_then": "JPM",
+    "yahoo_today": "JPM",
+    "note": ""
+   },
+   {
+    "name": "Coca-Cola",
+    "ticker_then": "KO",
+    "yahoo_today": "KO",
+    "note": ""
+   },
+   {
+    "name": "ConocoPhillips",
+    "ticker_then": "COP",
+    "yahoo_today": "COP",
+    "note": "history adjusted for 2012 Phillips 66 spin-off"
+   },
+   {
+    "name": "Hewlett-Packard",
+    "ticker_then": "HPQ",
+    "yahoo_today": "HPQ",
+    "note": "today HP Inc.; history adjusted for 2015 Hewlett Packard Enterprise spin-off"
+   },
+   {
+    "name": "Merck",
+    "ticker_then": "MRK",
+    "yahoo_today": "MRK",
+    "note": ""
+   },
+   {
+    "name": "Verizon Communications",
+    "ticker_then": "VZ",
+    "yahoo_today": "VZ",
+    "note": ""
+   },
+   {
+    "name": "PepsiCo",
+    "ticker_then": "PEP",
+    "yahoo_today": "PEP",
+    "note": ""
+   },
+   {
+    "name": "Schlumberger",
+    "ticker_then": "SLB",
+    "yahoo_today": "SLB",
+    "note": "today SLB"
+   },
+   {
+    "name": "Oracle",
+    "ticker_then": "ORCL",
+    "yahoo_today": "ORCL",
+    "note": ""
+   },
+   {
+    "name": "Wells Fargo",
+    "ticker_then": "WFC",
+    "yahoo_today": "WFC",
+    "note": ""
+   },
+   {
+    "name": "Abbott Laboratories",
+    "ticker_then": "ABT",
+    "yahoo_today": "ABT",
+    "note": "history adjusted for 2013 AbbVie spin-off"
+   },
+   {
+    "name": "Goldman Sachs",
+    "ticker_then": "GS",
+    "yahoo_today": "GS",
+    "note": ""
+   }
+  ],
+  "2008": [
+   {
+    "name": "Exxon Mobil",
+    "ticker_then": "XOM",
+    "yahoo_today": "XOM",
+    "note": ""
+   },
+   {
+    "name": "Wal-Mart Stores",
+    "ticker_then": "WMT",
+    "yahoo_today": "WMT",
+    "note": ""
+   },
+   {
+    "name": "Procter & Gamble",
+    "ticker_then": "PG",
+    "yahoo_today": "PG",
+    "note": ""
+   },
+   {
+    "name": "General Electric",
+    "ticker_then": "GE",
+    "yahoo_today": "GE",
+    "note": "Yahoo history split/spin-off adjusted (1:8 reverse split 2021; GE HealthCare 2023, GE Vernova 2024 spun off)"
+   },
+   {
+    "name": "AT&T",
+    "ticker_then": "T",
+    "yahoo_today": "T",
+    "note": "AT&T Inc. (former SBC Communications); Yahoo T = SBC/AT&T Inc. history"
+   },
+   {
+    "name": "Johnson & Johnson",
+    "ticker_then": "JNJ",
+    "yahoo_today": "JNJ",
+    "note": ""
+   },
+   {
+    "name": "Chevron",
+    "ticker_then": "CVX",
+    "yahoo_today": "CVX",
+    "note": ""
+   },
+   {
+    "name": "Microsoft",
+    "ticker_then": "MSFT",
+    "yahoo_today": "MSFT",
+    "note": ""
+   },
+   {
+    "name": "Pfizer",
+    "ticker_then": "PFE",
+    "yahoo_today": "PFE",
+    "note": ""
+   },
+   {
+    "name": "JPMorgan Chase",
+    "ticker_then": "JPM",
+    "yahoo_today": "JPM",
+    "note": ""
+   },
+   {
+    "name": "IBM",
+    "ticker_then": "IBM",
+    "yahoo_today": "IBM",
+    "note": ""
+   },
+   {
+    "name": "Wells Fargo",
+    "ticker_then": "WFC",
+    "yahoo_today": "WFC",
+    "note": ""
+   },
+   {
+    "name": "Coca-Cola",
+    "ticker_then": "KO",
+    "yahoo_today": "KO",
+    "note": ""
+   },
+   {
+    "name": "Verizon Communications",
+    "ticker_then": "VZ",
+    "yahoo_today": "VZ",
+    "note": ""
+   },
+   {
+    "name": "Cisco Systems",
+    "ticker_then": "CSCO",
+    "yahoo_today": "CSCO",
+    "note": ""
+   },
+   {
+    "name": "Oracle",
+    "ticker_then": "ORCL",
+    "yahoo_today": "ORCL",
+    "note": ""
+   },
+   {
+    "name": "Hewlett-Packard",
+    "ticker_then": "HPQ",
+    "yahoo_today": "HPQ",
+    "note": "today HP Inc.; history adjusted for 2015 Hewlett Packard Enterprise spin-off"
+   },
+   {
+    "name": "Philip Morris International",
+    "ticker_then": "PM",
+    "yahoo_today": "PM",
+    "note": ""
+   },
+   {
+    "name": "PepsiCo",
+    "ticker_then": "PEP",
+    "yahoo_today": "PEP",
+    "note": ""
+   },
+   {
+    "name": "Abbott Laboratories",
+    "ticker_then": "ABT",
+    "yahoo_today": "ABT",
+    "note": "history adjusted for 2013 AbbVie spin-off"
+   },
+   {
+    "name": "Intel",
+    "ticker_then": "INTC",
+    "yahoo_today": "INTC",
+    "note": ""
+   },
+   {
+    "name": "ConocoPhillips",
+    "ticker_then": "COP",
+    "yahoo_today": "COP",
+    "note": "history adjusted for 2012 Phillips 66 spin-off"
+   },
+   {
+    "name": "Apple",
+    "ticker_then": "AAPL",
+    "yahoo_today": "AAPL",
+    "note": ""
+   },
+   {
+    "name": "Google",
+    "ticker_then": "GOOG",
+    "yahoo_today": "GOOGL",
+    "note": "Class A; Class A+C weights combined"
+   },
+   {
+    "name": "Bank of America",
+    "ticker_then": "BAC",
+    "yahoo_today": "BAC",
+    "note": ""
+   },
+   {
+    "name": "McDonald's",
+    "ticker_then": "MCD",
+    "yahoo_today": "MCD",
+    "note": ""
+   },
+   {
+    "name": "Merck",
+    "ticker_then": "MRK",
+    "yahoo_today": "MRK",
+    "note": ""
+   },
+   {
+    "name": "Amgen",
+    "ticker_then": "AMGN",
+    "yahoo_today": "AMGN",
+    "note": ""
+   },
+   {
+    "name": "Qualcomm",
+    "ticker_then": "QCOM",
+    "yahoo_today": "QCOM",
+    "note": ""
+   },
+   {
+    "name": "United Parcel Service",
+    "ticker_then": "UPS",
+    "yahoo_today": "UPS",
+    "note": ""
+   }
+  ],
+  "2009": [
+   {
+    "name": "Exxon Mobil",
+    "ticker_then": "XOM",
+    "yahoo_today": "XOM",
+    "note": ""
+   },
+   {
+    "name": "Microsoft",
+    "ticker_then": "MSFT",
+    "yahoo_today": "MSFT",
+    "note": ""
+   },
+   {
+    "name": "Wal-Mart Stores",
+    "ticker_then": "WMT",
+    "yahoo_today": "WMT",
+    "note": ""
+   },
+   {
+    "name": "Apple",
+    "ticker_then": "AAPL",
+    "yahoo_today": "AAPL",
+    "note": ""
+   },
+   {
+    "name": "Johnson & Johnson",
+    "ticker_then": "JNJ",
+    "yahoo_today": "JNJ",
+    "note": ""
+   },
+   {
+    "name": "Procter & Gamble",
+    "ticker_then": "PG",
+    "yahoo_today": "PG",
+    "note": ""
+   },
+   {
+    "name": "IBM",
+    "ticker_then": "IBM",
+    "yahoo_today": "IBM",
+    "note": ""
+   },
+   {
+    "name": "AT&T",
+    "ticker_then": "T",
+    "yahoo_today": "T",
+    "note": "AT&T Inc. (former SBC Communications); Yahoo T = SBC/AT&T Inc. history"
+   },
+   {
+    "name": "JPMorgan Chase",
+    "ticker_then": "JPM",
+    "yahoo_today": "JPM",
+    "note": ""
+   },
+   {
+    "name": "General Electric",
+    "ticker_then": "GE",
+    "yahoo_today": "GE",
+    "note": "Yahoo history split/spin-off adjusted (1:8 reverse split 2021; GE HealthCare 2023, GE Vernova 2024 spun off)"
+   },
+   {
+    "name": "Chevron",
+    "ticker_then": "CVX",
+    "yahoo_today": "CVX",
+    "note": ""
+   },
+   {
+    "name": "Bank of America",
+    "ticker_then": "BAC",
+    "yahoo_today": "BAC",
+    "note": ""
+   },
+   {
+    "name": "Google",
+    "ticker_then": "GOOG",
+    "yahoo_today": "GOOGL",
+    "note": "Class A; Class A+C weights combined"
+   },
+   {
+    "name": "Pfizer",
+    "ticker_then": "PFE",
+    "yahoo_today": "PFE",
+    "note": ""
+   },
+   {
+    "name": "Cisco Systems",
+    "ticker_then": "CSCO",
+    "yahoo_today": "CSCO",
+    "note": ""
+   },
+   {
+    "name": "Wells Fargo",
+    "ticker_then": "WFC",
+    "yahoo_today": "WFC",
+    "note": ""
+   },
+   {
+    "name": "Coca-Cola",
+    "ticker_then": "KO",
+    "yahoo_today": "KO",
+    "note": ""
+   },
+   {
+    "name": "Oracle",
+    "ticker_then": "ORCL",
+    "yahoo_today": "ORCL",
+    "note": ""
+   },
+   {
+    "name": "Hewlett-Packard",
+    "ticker_then": "HPQ",
+    "yahoo_today": "HPQ",
+    "note": "today HP Inc.; history adjusted for 2015 Hewlett Packard Enterprise spin-off"
+   },
+   {
+    "name": "Intel",
+    "ticker_then": "INTC",
+    "yahoo_today": "INTC",
+    "note": ""
+   },
+   {
+    "name": "Merck",
+    "ticker_then": "MRK",
+    "yahoo_today": "MRK",
+    "note": ""
+   },
+   {
+    "name": "PepsiCo",
+    "ticker_then": "PEP",
+    "yahoo_today": "PEP",
+    "note": ""
+   },
+   {
+    "name": "Verizon Communications",
+    "ticker_then": "VZ",
+    "yahoo_today": "VZ",
+    "note": ""
+   },
+   {
+    "name": "Philip Morris International",
+    "ticker_then": "PM",
+    "yahoo_today": "PM",
+    "note": ""
+   },
+   {
+    "name": "Goldman Sachs",
+    "ticker_then": "GS",
+    "yahoo_today": "GS",
+    "note": ""
+   },
+   {
+    "name": "Abbott Laboratories",
+    "ticker_then": "ABT",
+    "yahoo_today": "ABT",
+    "note": "history adjusted for 2013 AbbVie spin-off"
+   },
+   {
+    "name": "Schlumberger",
+    "ticker_then": "SLB",
+    "yahoo_today": "SLB",
+    "note": "today SLB"
+   },
+   {
+    "name": "Qualcomm",
+    "ticker_then": "QCOM",
+    "yahoo_today": "QCOM",
+    "note": ""
+   },
+   {
+    "name": "Citigroup",
+    "ticker_then": "C",
+    "yahoo_today": "C",
+    "note": "1:10 reverse split 2011 (adjusted in Yahoo)"
+   },
+   {
+    "name": "ConocoPhillips",
+    "ticker_then": "COP",
+    "yahoo_today": "COP",
+    "note": "history adjusted for 2012 Phillips 66 spin-off"
+   }
+  ],
+  "2010": [
+   {
+    "name": "Exxon Mobil",
+    "ticker_then": "XOM",
+    "yahoo_today": "XOM",
+    "note": ""
+   },
+   {
+    "name": "Apple",
+    "ticker_then": "AAPL",
+    "yahoo_today": "AAPL",
+    "note": ""
+   },
+   {
+    "name": "Microsoft",
+    "ticker_then": "MSFT",
+    "yahoo_today": "MSFT",
+    "note": ""
+   },
+   {
+    "name": "Berkshire Hathaway",
+    "ticker_then": "BRK.B",
+    "yahoo_today": "BRK-B",
+    "note": ""
+   },
+   {
+    "name": "General Electric",
+    "ticker_then": "GE",
+    "yahoo_today": "GE",
+    "note": "Yahoo history split/spin-off adjusted (1:8 reverse split 2021; GE HealthCare 2023, GE Vernova 2024 spun off)"
+   },
+   {
+    "name": "Wal-Mart Stores",
+    "ticker_then": "WMT",
+    "yahoo_today": "WMT",
+    "note": ""
+   },
+   {
+    "name": "Chevron",
+    "ticker_then": "CVX",
+    "yahoo_today": "CVX",
+    "note": ""
+   },
+   {
+    "name": "IBM",
+    "ticker_then": "IBM",
+    "yahoo_today": "IBM",
+    "note": ""
+   },
+   {
+    "name": "Procter & Gamble",
+    "ticker_then": "PG",
+    "yahoo_today": "PG",
+    "note": ""
+   },
+   {
+    "name": "AT&T",
+    "ticker_then": "T",
+    "yahoo_today": "T",
+    "note": "AT&T Inc. (former SBC Communications); Yahoo T = SBC/AT&T Inc. history"
+   },
+   {
+    "name": "Johnson & Johnson",
+    "ticker_then": "JNJ",
+    "yahoo_today": "JNJ",
+    "note": ""
+   },
+   {
+    "name": "JPMorgan Chase",
+    "ticker_then": "JPM",
+    "yahoo_today": "JPM",
+    "note": ""
+   },
+   {
+    "name": "Wells Fargo",
+    "ticker_then": "WFC",
+    "yahoo_today": "WFC",
+    "note": ""
+   },
+   {
+    "name": "Oracle",
+    "ticker_then": "ORCL",
+    "yahoo_today": "ORCL",
+    "note": ""
+   },
+   {
+    "name": "Coca-Cola",
+    "ticker_then": "KO",
+    "yahoo_today": "KO",
+    "note": ""
+   },
+   {
+    "name": "Google",
+    "ticker_then": "GOOG",
+    "yahoo_today": "GOOGL",
+    "note": "Class A; Class A+C weights combined"
+   },
+   {
+    "name": "Pfizer",
+    "ticker_then": "PFE",
+    "yahoo_today": "PFE",
+    "note": ""
+   },
+   {
+    "name": "Citigroup",
+    "ticker_then": "C",
+    "yahoo_today": "C",
+    "note": "1:10 reverse split 2011 (adjusted in Yahoo)"
+   },
+   {
+    "name": "Bank of America",
+    "ticker_then": "BAC",
+    "yahoo_today": "BAC",
+    "note": ""
+   },
+   {
+    "name": "Intel",
+    "ticker_then": "INTC",
+    "yahoo_today": "INTC",
+    "note": ""
+   },
+   {
+    "name": "Schlumberger",
+    "ticker_then": "SLB",
+    "yahoo_today": "SLB",
+    "note": "today SLB"
+   },
+   {
+    "name": "Cisco Systems",
+    "ticker_then": "CSCO",
+    "yahoo_today": "CSCO",
+    "note": ""
+   },
+   {
+    "name": "Merck",
+    "ticker_then": "MRK",
+    "yahoo_today": "MRK",
+    "note": ""
+   },
+   {
+    "name": "Philip Morris International",
+    "ticker_then": "PM",
+    "yahoo_today": "PM",
+    "note": ""
+   },
+   {
+    "name": "PepsiCo",
+    "ticker_then": "PEP",
+    "yahoo_today": "PEP",
+    "note": ""
+   },
+   {
+    "name": "Verizon Communications",
+    "ticker_then": "VZ",
+    "yahoo_today": "VZ",
+    "note": ""
+   },
+   {
+    "name": "ConocoPhillips",
+    "ticker_then": "COP",
+    "yahoo_today": "COP",
+    "note": "history adjusted for 2012 Phillips 66 spin-off"
+   },
+   {
+    "name": "Hewlett-Packard",
+    "ticker_then": "HPQ",
+    "yahoo_today": "HPQ",
+    "note": "today HP Inc.; history adjusted for 2015 Hewlett Packard Enterprise spin-off"
+   },
+   {
+    "name": "Goldman Sachs",
+    "ticker_then": "GS",
+    "yahoo_today": "GS",
+    "note": ""
+   },
+   {
+    "name": "McDonald's",
+    "ticker_then": "MCD",
+    "yahoo_today": "MCD",
+    "note": ""
+   }
+  ],
+  "2011": [
+   {
+    "name": "Exxon Mobil",
+    "ticker_then": "XOM",
+    "yahoo_today": "XOM",
+    "note": ""
+   },
+   {
+    "name": "Apple",
+    "ticker_then": "AAPL",
+    "yahoo_today": "AAPL",
+    "note": ""
+   },
+   {
+    "name": "IBM",
+    "ticker_then": "IBM",
+    "yahoo_today": "IBM",
+    "note": ""
+   },
+   {
+    "name": "Chevron",
+    "ticker_then": "CVX",
+    "yahoo_today": "CVX",
+    "note": ""
+   },
+   {
+    "name": "Wal-Mart Stores",
+    "ticker_then": "WMT",
+    "yahoo_today": "WMT",
+    "note": ""
+   },
+   {
+    "name": "Microsoft",
+    "ticker_then": "MSFT",
+    "yahoo_today": "MSFT",
+    "note": ""
+   },
+   {
+    "name": "General Electric",
+    "ticker_then": "GE",
+    "yahoo_today": "GE",
+    "note": "Yahoo history split/spin-off adjusted (1:8 reverse split 2021; GE HealthCare 2023, GE Vernova 2024 spun off)"
+   },
+   {
+    "name": "Berkshire Hathaway",
+    "ticker_then": "BRK.B",
+    "yahoo_today": "BRK-B",
+    "note": ""
+   },
+   {
+    "name": "Procter & Gamble",
+    "ticker_then": "PG",
+    "yahoo_today": "PG",
+    "note": ""
+   },
+   {
+    "name": "AT&T",
+    "ticker_then": "T",
+    "yahoo_today": "T",
+    "note": "AT&T Inc. (former SBC Communications); Yahoo T = SBC/AT&T Inc. history"
+   },
+   {
+    "name": "Johnson & Johnson",
+    "ticker_then": "JNJ",
+    "yahoo_today": "JNJ",
+    "note": ""
+   },
+   {
+    "name": "Pfizer",
+    "ticker_then": "PFE",
+    "yahoo_today": "PFE",
+    "note": ""
+   },
+   {
+    "name": "Google",
+    "ticker_then": "GOOG",
+    "yahoo_today": "GOOGL",
+    "note": "Class A; Class A+C weights combined"
+   },
+   {
+    "name": "Coca-Cola",
+    "ticker_then": "KO",
+    "yahoo_today": "KO",
+    "note": ""
+   },
+   {
+    "name": "Wells Fargo",
+    "ticker_then": "WFC",
+    "yahoo_today": "WFC",
+    "note": ""
+   },
+   {
+    "name": "Philip Morris International",
+    "ticker_then": "PM",
+    "yahoo_today": "PM",
+    "note": ""
+   },
+   {
+    "name": "Oracle",
+    "ticker_then": "ORCL",
+    "yahoo_today": "ORCL",
+    "note": ""
+   },
+   {
+    "name": "JPMorgan Chase",
+    "ticker_then": "JPM",
+    "yahoo_today": "JPM",
+    "note": ""
+   },
+   {
+    "name": "Intel",
+    "ticker_then": "INTC",
+    "yahoo_today": "INTC",
+    "note": ""
+   },
+   {
+    "name": "Merck",
+    "ticker_then": "MRK",
+    "yahoo_today": "MRK",
+    "note": ""
+   },
+   {
+    "name": "Verizon Communications",
+    "ticker_then": "VZ",
+    "yahoo_today": "VZ",
+    "note": ""
+   },
+   {
+    "name": "PepsiCo",
+    "ticker_then": "PEP",
+    "yahoo_today": "PEP",
+    "note": ""
+   },
+   {
+    "name": "McDonald's",
+    "ticker_then": "MCD",
+    "yahoo_today": "MCD",
+    "note": ""
+   },
+   {
+    "name": "Cisco Systems",
+    "ticker_then": "CSCO",
+    "yahoo_today": "CSCO",
+    "note": ""
+   },
+   {
+    "name": "ConocoPhillips",
+    "ticker_then": "COP",
+    "yahoo_today": "COP",
+    "note": "history adjusted for 2012 Phillips 66 spin-off"
+   },
+   {
+    "name": "Qualcomm",
+    "ticker_then": "QCOM",
+    "yahoo_today": "QCOM",
+    "note": ""
+   },
+   {
+    "name": "Schlumberger",
+    "ticker_then": "SLB",
+    "yahoo_today": "SLB",
+    "note": "today SLB"
+   },
+   {
+    "name": "Abbott Laboratories",
+    "ticker_then": "ABT",
+    "yahoo_today": "ABT",
+    "note": "history adjusted for 2013 AbbVie spin-off"
+   },
+   {
+    "name": "Amazon",
+    "ticker_then": "AMZN",
+    "yahoo_today": "AMZN",
+    "note": ""
+   },
+   {
+    "name": "Citigroup",
+    "ticker_then": "C",
+    "yahoo_today": "C",
+    "note": "1:10 reverse split 2011 (adjusted in Yahoo)"
+   }
+  ],
+  "2012": [
+   {
+    "name": "Apple",
+    "ticker_then": "AAPL",
+    "yahoo_today": "AAPL",
+    "note": ""
+   },
+   {
+    "name": "Exxon Mobil",
+    "ticker_then": "XOM",
+    "yahoo_today": "XOM",
+    "note": ""
+   },
+   {
+    "name": "Wal-Mart Stores",
+    "ticker_then": "WMT",
+    "yahoo_today": "WMT",
+    "note": ""
+   },
+   {
+    "name": "Berkshire Hathaway",
+    "ticker_then": "BRK.B",
+    "yahoo_today": "BRK-B",
+    "note": ""
+   },
+   {
+    "name": "General Electric",
+    "ticker_then": "GE",
+    "yahoo_today": "GE",
+    "note": "Yahoo history split/spin-off adjusted (1:8 reverse split 2021; GE HealthCare 2023, GE Vernova 2024 spun off)"
+   },
+   {
+    "name": "IBM",
+    "ticker_then": "IBM",
+    "yahoo_today": "IBM",
+    "note": ""
+   },
+   {
+    "name": "Chevron",
+    "ticker_then": "CVX",
+    "yahoo_today": "CVX",
+    "note": ""
+   },
+   {
+    "name": "Microsoft",
+    "ticker_then": "MSFT",
+    "yahoo_today": "MSFT",
+    "note": ""
+   },
+   {
+    "name": "Johnson & Johnson",
+    "ticker_then": "JNJ",
+    "yahoo_today": "JNJ",
+    "note": ""
+   },
+   {
+    "name": "AT&T",
+    "ticker_then": "T",
+    "yahoo_today": "T",
+    "note": "AT&T Inc. (former SBC Communications); Yahoo T = SBC/AT&T Inc. history"
+   },
+   {
+    "name": "Google",
+    "ticker_then": "GOOG",
+    "yahoo_today": "GOOGL",
+    "note": "Class A; Class A+C weights combined"
+   },
+   {
+    "name": "Procter & Gamble",
+    "ticker_then": "PG",
+    "yahoo_today": "PG",
+    "note": ""
+   },
+   {
+    "name": "Pfizer",
+    "ticker_then": "PFE",
+    "yahoo_today": "PFE",
+    "note": ""
+   },
+   {
+    "name": "Wells Fargo",
+    "ticker_then": "WFC",
+    "yahoo_today": "WFC",
+    "note": ""
+   },
+   {
+    "name": "JPMorgan Chase",
+    "ticker_then": "JPM",
+    "yahoo_today": "JPM",
+    "note": ""
+   },
+   {
+    "name": "Coca-Cola",
+    "ticker_then": "KO",
+    "yahoo_today": "KO",
+    "note": ""
+   },
+   {
+    "name": "Oracle",
+    "ticker_then": "ORCL",
+    "yahoo_today": "ORCL",
+    "note": ""
+   },
+   {
+    "name": "Philip Morris International",
+    "ticker_then": "PM",
+    "yahoo_today": "PM",
+    "note": ""
+   },
+   {
+    "name": "Bank of America",
+    "ticker_then": "BAC",
+    "yahoo_today": "BAC",
+    "note": ""
+   },
+   {
+    "name": "Merck",
+    "ticker_then": "MRK",
+    "yahoo_today": "MRK",
+    "note": ""
+   },
+   {
+    "name": "Verizon Communications",
+    "ticker_then": "VZ",
+    "yahoo_today": "VZ",
+    "note": ""
+   },
+   {
+    "name": "Citigroup",
+    "ticker_then": "C",
+    "yahoo_today": "C",
+    "note": "1:10 reverse split 2011 (adjusted in Yahoo)"
+   },
+   {
+    "name": "Amazon",
+    "ticker_then": "AMZN",
+    "yahoo_today": "AMZN",
+    "note": ""
+   },
+   {
+    "name": "PepsiCo",
+    "ticker_then": "PEP",
+    "yahoo_today": "PEP",
+    "note": ""
+   },
+   {
+    "name": "Qualcomm",
+    "ticker_then": "QCOM",
+    "yahoo_today": "QCOM",
+    "note": ""
+   },
+   {
+    "name": "Cisco Systems",
+    "ticker_then": "CSCO",
+    "yahoo_today": "CSCO",
+    "note": ""
+   },
+   {
+    "name": "Abbott Laboratories",
+    "ticker_then": "ABT",
+    "yahoo_today": "ABT",
+    "note": "history adjusted for 2013 AbbVie spin-off"
+   },
+   {
+    "name": "Intel",
+    "ticker_then": "INTC",
+    "yahoo_today": "INTC",
+    "note": ""
+   },
+   {
+    "name": "Visa",
+    "ticker_then": "V",
+    "yahoo_today": "V",
+    "note": ""
+   },
+   {
+    "name": "Comcast",
+    "ticker_then": "CMCSA",
+    "yahoo_today": "CMCSA",
+    "note": ""
+   }
+  ],
+  "2013": [
+   {
+    "name": "Apple",
+    "ticker_then": "AAPL",
+    "yahoo_today": "AAPL",
+    "note": ""
+   },
+   {
+    "name": "Exxon Mobil",
+    "ticker_then": "XOM",
+    "yahoo_today": "XOM",
+    "note": ""
+   },
+   {
+    "name": "Google",
+    "ticker_then": "GOOG",
+    "yahoo_today": "GOOGL",
+    "note": "Class A; Class A+C weights combined"
+   },
+   {
+    "name": "Berkshire Hathaway",
+    "ticker_then": "BRK.B",
+    "yahoo_today": "BRK-B",
+    "note": ""
+   },
+   {
+    "name": "Microsoft",
+    "ticker_then": "MSFT",
+    "yahoo_today": "MSFT",
+    "note": ""
+   },
+   {
+    "name": "General Electric",
+    "ticker_then": "GE",
+    "yahoo_today": "GE",
+    "note": "Yahoo history split/spin-off adjusted (1:8 reverse split 2021; GE HealthCare 2023, GE Vernova 2024 spun off)"
+   },
+   {
+    "name": "Johnson & Johnson",
+    "ticker_then": "JNJ",
+    "yahoo_today": "JNJ",
+    "note": ""
+   },
+   {
+    "name": "Wal-Mart Stores",
+    "ticker_then": "WMT",
+    "yahoo_today": "WMT",
+    "note": ""
+   },
+   {
+    "name": "Chevron",
+    "ticker_then": "CVX",
+    "yahoo_today": "CVX",
+    "note": ""
+   },
+   {
+    "name": "Wells Fargo",
+    "ticker_then": "WFC",
+    "yahoo_today": "WFC",
+    "note": ""
+   },
+   {
+    "name": "Procter & Gamble",
+    "ticker_then": "PG",
+    "yahoo_today": "PG",
+    "note": ""
+   },
+   {
+    "name": "JPMorgan Chase",
+    "ticker_then": "JPM",
+    "yahoo_today": "JPM",
+    "note": ""
+   },
+   {
+    "name": "IBM",
+    "ticker_then": "IBM",
+    "yahoo_today": "IBM",
+    "note": ""
+   },
+   {
+    "name": "Pfizer",
+    "ticker_then": "PFE",
+    "yahoo_today": "PFE",
+    "note": ""
+   },
+   {
+    "name": "AT&T",
+    "ticker_then": "T",
+    "yahoo_today": "T",
+    "note": "AT&T Inc. (former SBC Communications); Yahoo T = SBC/AT&T Inc. history"
+   },
+   {
+    "name": "Amazon",
+    "ticker_then": "AMZN",
+    "yahoo_today": "AMZN",
+    "note": ""
+   },
+   {
+    "name": "Coca-Cola",
+    "ticker_then": "KO",
+    "yahoo_today": "KO",
+    "note": ""
+   },
+   {
+    "name": "Oracle",
+    "ticker_then": "ORCL",
+    "yahoo_today": "ORCL",
+    "note": ""
+   },
+   {
+    "name": "Bank of America",
+    "ticker_then": "BAC",
+    "yahoo_today": "BAC",
+    "note": ""
+   },
+   {
+    "name": "Citigroup",
+    "ticker_then": "C",
+    "yahoo_today": "C",
+    "note": "1:10 reverse split 2011 (adjusted in Yahoo)"
+   },
+   {
+    "name": "Merck",
+    "ticker_then": "MRK",
+    "yahoo_today": "MRK",
+    "note": ""
+   },
+   {
+    "name": "Visa",
+    "ticker_then": "V",
+    "yahoo_today": "V",
+    "note": ""
+   },
+   {
+    "name": "Verizon Communications",
+    "ticker_then": "VZ",
+    "yahoo_today": "VZ",
+    "note": ""
+   },
+   {
+    "name": "Philip Morris International",
+    "ticker_then": "PM",
+    "yahoo_today": "PM",
+    "note": ""
+   },
+   {
+    "name": "Comcast",
+    "ticker_then": "CMCSA",
+    "yahoo_today": "CMCSA",
+    "note": ""
+   },
+   {
+    "name": "Walt Disney",
+    "ticker_then": "DIS",
+    "yahoo_today": "DIS",
+    "note": ""
+   },
+   {
+    "name": "Facebook",
+    "ticker_then": "FB",
+    "yahoo_today": "META",
+    "note": ""
+   },
+   {
+    "name": "Intel",
+    "ticker_then": "INTC",
+    "yahoo_today": "INTC",
+    "note": ""
+   },
+   {
+    "name": "PepsiCo",
+    "ticker_then": "PEP",
+    "yahoo_today": "PEP",
+    "note": ""
+   },
+   {
+    "name": "Qualcomm",
+    "ticker_then": "QCOM",
+    "yahoo_today": "QCOM",
+    "note": ""
+   }
+  ],
+  "2014": [
+   {
+    "name": "Apple",
+    "ticker_then": "AAPL",
+    "yahoo_today": "AAPL",
+    "note": ""
+   },
+   {
+    "name": "Exxon Mobil",
+    "ticker_then": "XOM",
+    "yahoo_today": "XOM",
+    "note": ""
+   },
+   {
+    "name": "Microsoft",
+    "ticker_then": "MSFT",
+    "yahoo_today": "MSFT",
+    "note": ""
+   },
+   {
+    "name": "Berkshire Hathaway",
+    "ticker_then": "BRK.B",
+    "yahoo_today": "BRK-B",
+    "note": ""
+   },
+   {
+    "name": "Google",
+    "ticker_then": "GOOGL",
+    "yahoo_today": "GOOGL",
+    "note": "Class A; Class A+C weights combined"
+   },
+   {
+    "name": "Johnson & Johnson",
+    "ticker_then": "JNJ",
+    "yahoo_today": "JNJ",
+    "note": ""
+   },
+   {
+    "name": "Wells Fargo",
+    "ticker_then": "WFC",
+    "yahoo_today": "WFC",
+    "note": ""
+   },
+   {
+    "name": "Wal-Mart Stores",
+    "ticker_then": "WMT",
+    "yahoo_today": "WMT",
+    "note": ""
+   },
+   {
+    "name": "General Electric",
+    "ticker_then": "GE",
+    "yahoo_today": "GE",
+    "note": "Yahoo history split/spin-off adjusted (1:8 reverse split 2021; GE HealthCare 2023, GE Vernova 2024 spun off)"
+   },
+   {
+    "name": "Procter & Gamble",
+    "ticker_then": "PG",
+    "yahoo_today": "PG",
+    "note": ""
+   },
+   {
+    "name": "JPMorgan Chase",
+    "ticker_then": "JPM",
+    "yahoo_today": "JPM",
+    "note": ""
+   },
+   {
+    "name": "Facebook",
+    "ticker_then": "FB",
+    "yahoo_today": "META",
+    "note": ""
+   },
+   {
+    "name": "Chevron",
+    "ticker_then": "CVX",
+    "yahoo_today": "CVX",
+    "note": ""
+   },
+   {
+    "name": "Oracle",
+    "ticker_then": "ORCL",
+    "yahoo_today": "ORCL",
+    "note": ""
+   },
+   {
+    "name": "Pfizer",
+    "ticker_then": "PFE",
+    "yahoo_today": "PFE",
+    "note": ""
+   },
+   {
+    "name": "Verizon Communications",
+    "ticker_then": "VZ",
+    "yahoo_today": "VZ",
+    "note": ""
+   },
+   {
+    "name": "Bank of America",
+    "ticker_then": "BAC",
+    "yahoo_today": "BAC",
+    "note": ""
+   },
+   {
+    "name": "Coca-Cola",
+    "ticker_then": "KO",
+    "yahoo_today": "KO",
+    "note": ""
+   },
+   {
+    "name": "Intel",
+    "ticker_then": "INTC",
+    "yahoo_today": "INTC",
+    "note": ""
+   },
+   {
+    "name": "AT&T",
+    "ticker_then": "T",
+    "yahoo_today": "T",
+    "note": "AT&T Inc. (former SBC Communications); Yahoo T = SBC/AT&T Inc. history"
+   },
+   {
+    "name": "Citigroup",
+    "ticker_then": "C",
+    "yahoo_today": "C",
+    "note": "1:10 reverse split 2011 (adjusted in Yahoo)"
+   },
+   {
+    "name": "Visa",
+    "ticker_then": "V",
+    "yahoo_today": "V",
+    "note": ""
+   },
+   {
+    "name": "Merck",
+    "ticker_then": "MRK",
+    "yahoo_today": "MRK",
+    "note": ""
+   },
+   {
+    "name": "Walt Disney",
+    "ticker_then": "DIS",
+    "yahoo_today": "DIS",
+    "note": ""
+   },
+   {
+    "name": "IBM",
+    "ticker_then": "IBM",
+    "yahoo_today": "IBM",
+    "note": ""
+   },
+   {
+    "name": "Comcast",
+    "ticker_then": "CMCSA",
+    "yahoo_today": "CMCSA",
+    "note": ""
+   },
+   {
+    "name": "Amazon",
+    "ticker_then": "AMZN",
+    "yahoo_today": "AMZN",
+    "note": ""
+   },
+   {
+    "name": "Cisco Systems",
+    "ticker_then": "CSCO",
+    "yahoo_today": "CSCO",
+    "note": ""
+   },
+   {
+    "name": "Gilead Sciences",
+    "ticker_then": "GILD",
+    "yahoo_today": "GILD",
+    "note": ""
+   },
+   {
+    "name": "PepsiCo",
+    "ticker_then": "PEP",
+    "yahoo_today": "PEP",
+    "note": ""
+   }
+  ],
+  "2015": [
+   {
+    "name": "Apple",
+    "ticker_then": "AAPL",
+    "yahoo_today": "AAPL",
+    "note": ""
+   },
+   {
+    "name": "Alphabet",
+    "ticker_then": "GOOGL",
+    "yahoo_today": "GOOGL",
+    "note": "Class A; Class A+C weights combined"
+   },
+   {
+    "name": "Microsoft",
+    "ticker_then": "MSFT",
+    "yahoo_today": "MSFT",
+    "note": ""
+   },
+   {
+    "name": "Berkshire Hathaway",
+    "ticker_then": "BRK.B",
+    "yahoo_today": "BRK-B",
+    "note": ""
+   },
+   {
+    "name": "Exxon Mobil",
+    "ticker_then": "XOM",
+    "yahoo_today": "XOM",
+    "note": ""
+   },
+   {
+    "name": "Amazon",
+    "ticker_then": "AMZN",
+    "yahoo_today": "AMZN",
+    "note": ""
+   },
+   {
+    "name": "Facebook",
+    "ticker_then": "FB",
+    "yahoo_today": "META",
+    "note": ""
+   },
+   {
+    "name": "General Electric",
+    "ticker_then": "GE",
+    "yahoo_today": "GE",
+    "note": "Yahoo history split/spin-off adjusted (1:8 reverse split 2021; GE HealthCare 2023, GE Vernova 2024 spun off)"
+   },
+   {
+    "name": "Johnson & Johnson",
+    "ticker_then": "JNJ",
+    "yahoo_today": "JNJ",
+    "note": ""
+   },
+   {
+    "name": "Wells Fargo",
+    "ticker_then": "WFC",
+    "yahoo_today": "WFC",
+    "note": ""
+   },
+   {
+    "name": "JPMorgan Chase",
+    "ticker_then": "JPM",
+    "yahoo_today": "JPM",
+    "note": ""
+   },
+   {
+    "name": "Procter & Gamble",
+    "ticker_then": "PG",
+    "yahoo_today": "PG",
+    "note": ""
+   },
+   {
+    "name": "AT&T",
+    "ticker_then": "T",
+    "yahoo_today": "T",
+    "note": "AT&T Inc. (former SBC Communications); Yahoo T = SBC/AT&T Inc. history"
+   },
+   {
+    "name": "Pfizer",
+    "ticker_then": "PFE",
+    "yahoo_today": "PFE",
+    "note": ""
+   },
+   {
+    "name": "Wal-Mart Stores",
+    "ticker_then": "WMT",
+    "yahoo_today": "WMT",
+    "note": ""
+   },
+   {
+    "name": "Visa",
+    "ticker_then": "V",
+    "yahoo_today": "V",
+    "note": ""
+   },
+   {
+    "name": "Verizon Communications",
+    "ticker_then": "VZ",
+    "yahoo_today": "VZ",
+    "note": ""
+   },
+   {
+    "name": "Coca-Cola",
+    "ticker_then": "KO",
+    "yahoo_today": "KO",
+    "note": ""
+   },
+   {
+    "name": "Bank of America",
+    "ticker_then": "BAC",
+    "yahoo_today": "BAC",
+    "note": ""
+   },
+   {
+    "name": "Walt Disney",
+    "ticker_then": "DIS",
+    "yahoo_today": "DIS",
+    "note": ""
+   },
+   {
+    "name": "Chevron",
+    "ticker_then": "CVX",
+    "yahoo_today": "CVX",
+    "note": ""
+   },
+   {
+    "name": "Home Depot",
+    "ticker_then": "HD",
+    "yahoo_today": "HD",
+    "note": ""
+   },
+   {
+    "name": "Intel",
+    "ticker_then": "INTC",
+    "yahoo_today": "INTC",
+    "note": ""
+   },
+   {
+    "name": "Citigroup",
+    "ticker_then": "C",
+    "yahoo_today": "C",
+    "note": "1:10 reverse split 2011 (adjusted in Yahoo)"
+   },
+   {
+    "name": "Oracle",
+    "ticker_then": "ORCL",
+    "yahoo_today": "ORCL",
+    "note": ""
+   },
+   {
+    "name": "Merck",
+    "ticker_then": "MRK",
+    "yahoo_today": "MRK",
+    "note": ""
+   },
+   {
+    "name": "Gilead Sciences",
+    "ticker_then": "GILD",
+    "yahoo_today": "GILD",
+    "note": ""
+   },
+   {
+    "name": "PepsiCo",
+    "ticker_then": "PEP",
+    "yahoo_today": "PEP",
+    "note": ""
+   },
+   {
+    "name": "Comcast",
+    "ticker_then": "CMCSA",
+    "yahoo_today": "CMCSA",
+    "note": ""
+   },
+   {
+    "name": "Cisco Systems",
+    "ticker_then": "CSCO",
+    "yahoo_today": "CSCO",
+    "note": ""
+   }
+  ],
+  "2016": [
+   {
+    "name": "Apple",
+    "ticker_then": "AAPL",
+    "yahoo_today": "AAPL",
+    "note": ""
+   },
+   {
+    "name": "Microsoft",
+    "ticker_then": "MSFT",
+    "yahoo_today": "MSFT",
+    "note": ""
+   },
+   {
+    "name": "Alphabet",
+    "ticker_then": "GOOGL",
+    "yahoo_today": "GOOGL",
+    "note": "Class A; Class A+C weights combined"
+   },
+   {
+    "name": "Berkshire Hathaway",
+    "ticker_then": "BRK.B",
+    "yahoo_today": "BRK-B",
+    "note": ""
+   },
+   {
+    "name": "Exxon Mobil",
+    "ticker_then": "XOM",
+    "yahoo_today": "XOM",
+    "note": ""
+   },
+   {
+    "name": "Amazon",
+    "ticker_then": "AMZN",
+    "yahoo_today": "AMZN",
+    "note": ""
+   },
+   {
+    "name": "Facebook",
+    "ticker_then": "FB",
+    "yahoo_today": "META",
+    "note": ""
+   },
+   {
+    "name": "Johnson & Johnson",
+    "ticker_then": "JNJ",
+    "yahoo_today": "JNJ",
+    "note": ""
+   },
+   {
+    "name": "JPMorgan Chase",
+    "ticker_then": "JPM",
+    "yahoo_today": "JPM",
+    "note": ""
+   },
+   {
+    "name": "General Electric",
+    "ticker_then": "GE",
+    "yahoo_today": "GE",
+    "note": "Yahoo history split/spin-off adjusted (1:8 reverse split 2021; GE HealthCare 2023, GE Vernova 2024 spun off)"
+   },
+   {
+    "name": "Wells Fargo",
+    "ticker_then": "WFC",
+    "yahoo_today": "WFC",
+    "note": ""
+   },
+   {
+    "name": "AT&T",
+    "ticker_then": "T",
+    "yahoo_today": "T",
+    "note": "AT&T Inc. (former SBC Communications); Yahoo T = SBC/AT&T Inc. history"
+   },
+   {
+    "name": "Procter & Gamble",
+    "ticker_then": "PG",
+    "yahoo_today": "PG",
+    "note": ""
+   },
+   {
+    "name": "Bank of America",
+    "ticker_then": "BAC",
+    "yahoo_today": "BAC",
+    "note": ""
+   },
+   {
+    "name": "Chevron",
+    "ticker_then": "CVX",
+    "yahoo_today": "CVX",
+    "note": ""
+   },
+   {
+    "name": "Verizon Communications",
+    "ticker_then": "VZ",
+    "yahoo_today": "VZ",
+    "note": ""
+   },
+   {
+    "name": "Wal-Mart Stores",
+    "ticker_then": "WMT",
+    "yahoo_today": "WMT",
+    "note": ""
+   },
+   {
+    "name": "Pfizer",
+    "ticker_then": "PFE",
+    "yahoo_today": "PFE",
+    "note": ""
+   },
+   {
+    "name": "Visa",
+    "ticker_then": "V",
+    "yahoo_today": "V",
+    "note": ""
+   },
+   {
+    "name": "Coca-Cola",
+    "ticker_then": "KO",
+    "yahoo_today": "KO",
+    "note": ""
+   },
+   {
+    "name": "Intel",
+    "ticker_then": "INTC",
+    "yahoo_today": "INTC",
+    "note": ""
+   },
+   {
+    "name": "Citigroup",
+    "ticker_then": "C",
+    "yahoo_today": "C",
+    "note": "1:10 reverse split 2011 (adjusted in Yahoo)"
+   },
+   {
+    "name": "Walt Disney",
+    "ticker_then": "DIS",
+    "yahoo_today": "DIS",
+    "note": ""
+   },
+   {
+    "name": "Comcast",
+    "ticker_then": "CMCSA",
+    "yahoo_today": "CMCSA",
+    "note": ""
+   },
+   {
+    "name": "Home Depot",
+    "ticker_then": "HD",
+    "yahoo_today": "HD",
+    "note": ""
+   },
+   {
+    "name": "Merck",
+    "ticker_then": "MRK",
+    "yahoo_today": "MRK",
+    "note": ""
+   },
+   {
+    "name": "IBM",
+    "ticker_then": "IBM",
+    "yahoo_today": "IBM",
+    "note": ""
+   },
+   {
+    "name": "Oracle",
+    "ticker_then": "ORCL",
+    "yahoo_today": "ORCL",
+    "note": ""
+   },
+   {
+    "name": "UnitedHealth Group",
+    "ticker_then": "UNH",
+    "yahoo_today": "UNH",
+    "note": ""
+   },
+   {
+    "name": "Cisco Systems",
+    "ticker_then": "CSCO",
+    "yahoo_today": "CSCO",
+    "note": ""
+   }
+  ],
+  "2017": [
+   {
+    "name": "Apple",
+    "ticker_then": "AAPL",
+    "yahoo_today": "AAPL",
+    "note": ""
+   },
+   {
+    "name": "Microsoft",
+    "ticker_then": "MSFT",
+    "yahoo_today": "MSFT",
+    "note": ""
+   },
+   {
+    "name": "Alphabet",
+    "ticker_then": "GOOGL",
+    "yahoo_today": "GOOGL",
+    "note": "Class A; Class A+C weights combined"
+   },
+   {
+    "name": "Amazon",
+    "ticker_then": "AMZN",
+    "yahoo_today": "AMZN",
+    "note": ""
+   },
+   {
+    "name": "Facebook",
+    "ticker_then": "FB",
+    "yahoo_today": "META",
+    "note": ""
+   },
+   {
+    "name": "Berkshire Hathaway",
+    "ticker_then": "BRK.B",
+    "yahoo_today": "BRK-B",
+    "note": ""
+   },
+   {
+    "name": "Johnson & Johnson",
+    "ticker_then": "JNJ",
+    "yahoo_today": "JNJ",
+    "note": ""
+   },
+   {
+    "name": "JPMorgan Chase",
+    "ticker_then": "JPM",
+    "yahoo_today": "JPM",
+    "note": ""
+   },
+   {
+    "name": "Exxon Mobil",
+    "ticker_then": "XOM",
+    "yahoo_today": "XOM",
+    "note": ""
+   },
+   {
+    "name": "Wells Fargo",
+    "ticker_then": "WFC",
+    "yahoo_today": "WFC",
+    "note": ""
+   },
+   {
+    "name": "Wal-Mart Stores",
+    "ticker_then": "WMT",
+    "yahoo_today": "WMT",
+    "note": ""
+   },
+   {
+    "name": "Bank of America",
+    "ticker_then": "BAC",
+    "yahoo_today": "BAC",
+    "note": ""
+   },
+   {
+    "name": "Visa",
+    "ticker_then": "V",
+    "yahoo_today": "V",
+    "note": ""
+   },
+   {
+    "name": "AT&T",
+    "ticker_then": "T",
+    "yahoo_today": "T",
+    "note": "AT&T Inc. (former SBC Communications); Yahoo T = SBC/AT&T Inc. history"
+   },
+   {
+    "name": "Chevron",
+    "ticker_then": "CVX",
+    "yahoo_today": "CVX",
+    "note": ""
+   },
+   {
+    "name": "Procter & Gamble",
+    "ticker_then": "PG",
+    "yahoo_today": "PG",
+    "note": ""
+   },
+   {
+    "name": "Home Depot",
+    "ticker_then": "HD",
+    "yahoo_today": "HD",
+    "note": ""
+   },
+   {
+    "name": "Intel",
+    "ticker_then": "INTC",
+    "yahoo_today": "INTC",
+    "note": ""
+   },
+   {
+    "name": "Pfizer",
+    "ticker_then": "PFE",
+    "yahoo_today": "PFE",
+    "note": ""
+   },
+   {
+    "name": "Verizon Communications",
+    "ticker_then": "VZ",
+    "yahoo_today": "VZ",
+    "note": ""
+   },
+   {
+    "name": "UnitedHealth Group",
+    "ticker_then": "UNH",
+    "yahoo_today": "UNH",
+    "note": ""
+   },
+   {
+    "name": "Citigroup",
+    "ticker_then": "C",
+    "yahoo_today": "C",
+    "note": "1:10 reverse split 2011 (adjusted in Yahoo)"
+   },
+   {
+    "name": "Oracle",
+    "ticker_then": "ORCL",
+    "yahoo_today": "ORCL",
+    "note": ""
+   },
+   {
+    "name": "Coca-Cola",
+    "ticker_then": "KO",
+    "yahoo_today": "KO",
+    "note": ""
+   },
+   {
+    "name": "Cisco Systems",
+    "ticker_then": "CSCO",
+    "yahoo_today": "CSCO",
+    "note": ""
+   },
+   {
+    "name": "Comcast",
+    "ticker_then": "CMCSA",
+    "yahoo_today": "CMCSA",
+    "note": ""
+   },
+   {
+    "name": "PepsiCo",
+    "ticker_then": "PEP",
+    "yahoo_today": "PEP",
+    "note": ""
+   },
+   {
+    "name": "DowDuPont",
+    "ticker_then": "DWDP",
+    "yahoo_today": "DD",
+    "note": "DowDuPont (DWDP); Yahoo DD (DuPont de Nemours) carries the history, adjusted for 2019 Dow/Corteva spin-offs and 1:3 reverse split - use with care"
+   },
+   {
+    "name": "Boeing",
+    "ticker_then": "BA",
+    "yahoo_today": "BA",
+    "note": ""
+   },
+   {
+    "name": "Philip Morris International",
+    "ticker_then": "PM",
+    "yahoo_today": "PM",
+    "note": ""
+   }
+  ],
+  "2018": [
+   {
+    "name": "Microsoft",
+    "ticker_then": "MSFT",
+    "yahoo_today": "MSFT",
+    "note": ""
+   },
+   {
+    "name": "Amazon",
+    "ticker_then": "AMZN",
+    "yahoo_today": "AMZN",
+    "note": ""
+   },
+   {
+    "name": "Apple",
+    "ticker_then": "AAPL",
+    "yahoo_today": "AAPL",
+    "note": ""
+   },
+   {
+    "name": "Alphabet",
+    "ticker_then": "GOOGL",
+    "yahoo_today": "GOOGL",
+    "note": "Class A; Class A+C weights combined"
+   },
+   {
+    "name": "Berkshire Hathaway",
+    "ticker_then": "BRK.B",
+    "yahoo_today": "BRK-B",
+    "note": ""
+   },
+   {
+    "name": "Facebook",
+    "ticker_then": "FB",
+    "yahoo_today": "META",
+    "note": ""
+   },
+   {
+    "name": "Johnson & Johnson",
+    "ticker_then": "JNJ",
+    "yahoo_today": "JNJ",
+    "note": ""
+   },
+   {
+    "name": "JPMorgan Chase",
+    "ticker_then": "JPM",
+    "yahoo_today": "JPM",
+    "note": ""
+   },
+   {
+    "name": "Visa",
+    "ticker_then": "V",
+    "yahoo_today": "V",
+    "note": ""
+   },
+   {
+    "name": "Exxon Mobil",
+    "ticker_then": "XOM",
+    "yahoo_today": "XOM",
+    "note": ""
+   },
+   {
+    "name": "Walmart",
+    "ticker_then": "WMT",
+    "yahoo_today": "WMT",
+    "note": ""
+   },
+   {
+    "name": "Pfizer",
+    "ticker_then": "PFE",
+    "yahoo_today": "PFE",
+    "note": ""
+   },
+   {
+    "name": "UnitedHealth Group",
+    "ticker_then": "UNH",
+    "yahoo_today": "UNH",
+    "note": ""
+   },
+   {
+    "name": "Verizon Communications",
+    "ticker_then": "VZ",
+    "yahoo_today": "VZ",
+    "note": ""
+   },
+   {
+    "name": "Procter & Gamble",
+    "ticker_then": "PG",
+    "yahoo_today": "PG",
+    "note": ""
+   },
+   {
+    "name": "Bank of America",
+    "ticker_then": "BAC",
+    "yahoo_today": "BAC",
+    "note": ""
+   },
+   {
+    "name": "Wells Fargo",
+    "ticker_then": "WFC",
+    "yahoo_today": "WFC",
+    "note": ""
+   },
+   {
+    "name": "Intel",
+    "ticker_then": "INTC",
+    "yahoo_today": "INTC",
+    "note": ""
+   },
+   {
+    "name": "Chevron",
+    "ticker_then": "CVX",
+    "yahoo_today": "CVX",
+    "note": ""
+   },
+   {
+    "name": "AT&T",
+    "ticker_then": "T",
+    "yahoo_today": "T",
+    "note": "AT&T Inc. (former SBC Communications); Yahoo T = SBC/AT&T Inc. history"
+   },
+   {
+    "name": "Coca-Cola",
+    "ticker_then": "KO",
+    "yahoo_today": "KO",
+    "note": ""
+   },
+   {
+    "name": "Merck",
+    "ticker_then": "MRK",
+    "yahoo_today": "MRK",
+    "note": ""
+   },
+   {
+    "name": "Mastercard",
+    "ticker_then": "MA",
+    "yahoo_today": "MA",
+    "note": ""
+   },
+   {
+    "name": "Cisco Systems",
+    "ticker_then": "CSCO",
+    "yahoo_today": "CSCO",
+    "note": ""
+   },
+   {
+    "name": "Home Depot",
+    "ticker_then": "HD",
+    "yahoo_today": "HD",
+    "note": ""
+   },
+   {
+    "name": "Boeing",
+    "ticker_then": "BA",
+    "yahoo_today": "BA",
+    "note": ""
+   },
+   {
+    "name": "Walt Disney",
+    "ticker_then": "DIS",
+    "yahoo_today": "DIS",
+    "note": ""
+   },
+   {
+    "name": "Oracle",
+    "ticker_then": "ORCL",
+    "yahoo_today": "ORCL",
+    "note": ""
+   },
+   {
+    "name": "PepsiCo",
+    "ticker_then": "PEP",
+    "yahoo_today": "PEP",
+    "note": ""
+   },
+   {
+    "name": "Comcast",
+    "ticker_then": "CMCSA",
+    "yahoo_today": "CMCSA",
+    "note": ""
+   }
+  ],
+  "2019": [
+   {
+    "name": "Apple",
+    "ticker_then": "AAPL",
+    "yahoo_today": "AAPL",
+    "note": ""
+   },
+   {
+    "name": "Microsoft",
+    "ticker_then": "MSFT",
+    "yahoo_today": "MSFT",
+    "note": ""
+   },
+   {
+    "name": "Amazon",
+    "ticker_then": "AMZN",
+    "yahoo_today": "AMZN",
+    "note": ""
+   },
+   {
+    "name": "Alphabet",
+    "ticker_then": "GOOGL",
+    "yahoo_today": "GOOGL",
+    "note": "Class A; Class A+C weights combined"
+   },
+   {
+    "name": "Facebook",
+    "ticker_then": "FB",
+    "yahoo_today": "META",
+    "note": ""
+   },
+   {
+    "name": "Berkshire Hathaway",
+    "ticker_then": "BRK.B",
+    "yahoo_today": "BRK-B",
+    "note": ""
+   },
+   {
+    "name": "JPMorgan Chase",
+    "ticker_then": "JPM",
+    "yahoo_today": "JPM",
+    "note": ""
+   },
+   {
+    "name": "Visa",
+    "ticker_then": "V",
+    "yahoo_today": "V",
+    "note": ""
+   },
+   {
+    "name": "Johnson & Johnson",
+    "ticker_then": "JNJ",
+    "yahoo_today": "JNJ",
+    "note": ""
+   },
+   {
+    "name": "Walmart",
+    "ticker_then": "WMT",
+    "yahoo_today": "WMT",
+    "note": ""
+   },
+   {
+    "name": "Procter & Gamble",
+    "ticker_then": "PG",
+    "yahoo_today": "PG",
+    "note": ""
+   },
+   {
+    "name": "Mastercard",
+    "ticker_then": "MA",
+    "yahoo_today": "MA",
+    "note": ""
+   },
+   {
+    "name": "Exxon Mobil",
+    "ticker_then": "XOM",
+    "yahoo_today": "XOM",
+    "note": ""
+   },
+   {
+    "name": "AT&T",
+    "ticker_then": "T",
+    "yahoo_today": "T",
+    "note": "AT&T Inc. (former SBC Communications); Yahoo T = SBC/AT&T Inc. history"
+   },
+   {
+    "name": "Bank of America",
+    "ticker_then": "BAC",
+    "yahoo_today": "BAC",
+    "note": ""
+   },
+   {
+    "name": "UnitedHealth Group",
+    "ticker_then": "UNH",
+    "yahoo_today": "UNH",
+    "note": ""
+   },
+   {
+    "name": "Walt Disney",
+    "ticker_then": "DIS",
+    "yahoo_today": "DIS",
+    "note": ""
+   },
+   {
+    "name": "Intel",
+    "ticker_then": "INTC",
+    "yahoo_today": "INTC",
+    "note": ""
+   },
+   {
+    "name": "Verizon Communications",
+    "ticker_then": "VZ",
+    "yahoo_today": "VZ",
+    "note": ""
+   },
+   {
+    "name": "Home Depot",
+    "ticker_then": "HD",
+    "yahoo_today": "HD",
+    "note": ""
+   },
+   {
+    "name": "Coca-Cola",
+    "ticker_then": "KO",
+    "yahoo_today": "KO",
+    "note": ""
+   },
+   {
+    "name": "Merck",
+    "ticker_then": "MRK",
+    "yahoo_today": "MRK",
+    "note": ""
+   },
+   {
+    "name": "Chevron",
+    "ticker_then": "CVX",
+    "yahoo_today": "CVX",
+    "note": ""
+   },
+   {
+    "name": "Wells Fargo",
+    "ticker_then": "WFC",
+    "yahoo_today": "WFC",
+    "note": ""
+   },
+   {
+    "name": "Pfizer",
+    "ticker_then": "PFE",
+    "yahoo_today": "PFE",
+    "note": ""
+   },
+   {
+    "name": "Comcast",
+    "ticker_then": "CMCSA",
+    "yahoo_today": "CMCSA",
+    "note": ""
+   },
+   {
+    "name": "Cisco Systems",
+    "ticker_then": "CSCO",
+    "yahoo_today": "CSCO",
+    "note": ""
+   },
+   {
+    "name": "PepsiCo",
+    "ticker_then": "PEP",
+    "yahoo_today": "PEP",
+    "note": ""
+   },
+   {
+    "name": "Citigroup",
+    "ticker_then": "C",
+    "yahoo_today": "C",
+    "note": "1:10 reverse split 2011 (adjusted in Yahoo)"
+   },
+   {
+    "name": "Boeing",
+    "ticker_then": "BA",
+    "yahoo_today": "BA",
+    "note": ""
+   }
+  ],
+  "2020": [
+   {
+    "name": "Apple",
+    "ticker_then": "AAPL",
+    "yahoo_today": "AAPL",
+    "note": ""
+   },
+   {
+    "name": "Microsoft",
+    "ticker_then": "MSFT",
+    "yahoo_today": "MSFT",
+    "note": ""
+   },
+   {
+    "name": "Amazon",
+    "ticker_then": "AMZN",
+    "yahoo_today": "AMZN",
+    "note": ""
+   },
+   {
+    "name": "Alphabet",
+    "ticker_then": "GOOGL",
+    "yahoo_today": "GOOGL",
+    "note": "Class A; Class A+C weights combined"
+   },
+   {
+    "name": "Facebook",
+    "ticker_then": "FB",
+    "yahoo_today": "META",
+    "note": ""
+   },
+   {
+    "name": "Berkshire Hathaway",
+    "ticker_then": "BRK.B",
+    "yahoo_today": "BRK-B",
+    "note": ""
+   },
+   {
+    "name": "Tesla",
+    "ticker_then": "TSLA",
+    "yahoo_today": "TSLA",
+    "note": ""
+   },
+   {
+    "name": "Visa",
+    "ticker_then": "V",
+    "yahoo_today": "V",
+    "note": ""
+   },
+   {
+    "name": "Johnson & Johnson",
+    "ticker_then": "JNJ",
+    "yahoo_today": "JNJ",
+    "note": ""
+   },
+   {
+    "name": "Walmart",
+    "ticker_then": "WMT",
+    "yahoo_today": "WMT",
+    "note": ""
+   },
+   {
+    "name": "JPMorgan Chase",
+    "ticker_then": "JPM",
+    "yahoo_today": "JPM",
+    "note": ""
+   },
+   {
+    "name": "Mastercard",
+    "ticker_then": "MA",
+    "yahoo_today": "MA",
+    "note": ""
+   },
+   {
+    "name": "Procter & Gamble",
+    "ticker_then": "PG",
+    "yahoo_today": "PG",
+    "note": ""
+   },
+   {
+    "name": "UnitedHealth Group",
+    "ticker_then": "UNH",
+    "yahoo_today": "UNH",
+    "note": ""
+   },
+   {
+    "name": "Walt Disney",
+    "ticker_then": "DIS",
+    "yahoo_today": "DIS",
+    "note": ""
+   },
+   {
+    "name": "NVIDIA",
+    "ticker_then": "NVDA",
+    "yahoo_today": "NVDA",
+    "note": ""
+   },
+   {
+    "name": "Home Depot",
+    "ticker_then": "HD",
+    "yahoo_today": "HD",
+    "note": ""
+   },
+   {
+    "name": "PayPal",
+    "ticker_then": "PYPL",
+    "yahoo_today": "PYPL",
+    "note": ""
+   },
+   {
+    "name": "Verizon Communications",
+    "ticker_then": "VZ",
+    "yahoo_today": "VZ",
+    "note": ""
+   },
+   {
+    "name": "Adobe",
+    "ticker_then": "ADBE",
+    "yahoo_today": "ADBE",
+    "note": ""
+   },
+   {
+    "name": "Comcast",
+    "ticker_then": "CMCSA",
+    "yahoo_today": "CMCSA",
+    "note": ""
+   },
+   {
+    "name": "Netflix",
+    "ticker_then": "NFLX",
+    "yahoo_today": "NFLX",
+    "note": ""
+   },
+   {
+    "name": "Coca-Cola",
+    "ticker_then": "KO",
+    "yahoo_today": "KO",
+    "note": ""
+   },
+   {
+    "name": "Bank of America",
+    "ticker_then": "BAC",
+    "yahoo_today": "BAC",
+    "note": ""
+   },
+   {
+    "name": "Nike",
+    "ticker_then": "NKE",
+    "yahoo_today": "NKE",
+    "note": ""
+   },
+   {
+    "name": "Merck",
+    "ticker_then": "MRK",
+    "yahoo_today": "MRK",
+    "note": ""
+   },
+   {
+    "name": "PepsiCo",
+    "ticker_then": "PEP",
+    "yahoo_today": "PEP",
+    "note": ""
+   },
+   {
+    "name": "AT&T",
+    "ticker_then": "T",
+    "yahoo_today": "T",
+    "note": "AT&T Inc. (former SBC Communications); Yahoo T = SBC/AT&T Inc. history"
+   },
+   {
+    "name": "Pfizer",
+    "ticker_then": "PFE",
+    "yahoo_today": "PFE",
+    "note": ""
+   },
+   {
+    "name": "Intel",
+    "ticker_then": "INTC",
+    "yahoo_today": "INTC",
+    "note": ""
+   }
+  ],
+  "2021": [
+   {
+    "name": "Apple",
+    "ticker_then": "AAPL",
+    "yahoo_today": "AAPL",
+    "note": ""
+   },
+   {
+    "name": "Microsoft",
+    "ticker_then": "MSFT",
+    "yahoo_today": "MSFT",
+    "note": ""
+   },
+   {
+    "name": "Amazon",
+    "ticker_then": "AMZN",
+    "yahoo_today": "AMZN",
+    "note": ""
+   },
+   {
+    "name": "Alphabet",
+    "ticker_then": "GOOGL",
+    "yahoo_today": "GOOGL",
+    "note": "Class A; Class A+C weights combined"
+   },
+   {
+    "name": "Meta Platforms",
+    "ticker_then": "FB",
+    "yahoo_today": "META",
+    "note": ""
+   },
+   {
+    "name": "Tesla",
+    "ticker_then": "TSLA",
+    "yahoo_today": "TSLA",
+    "note": ""
+   },
+   {
+    "name": "NVIDIA",
+    "ticker_then": "NVDA",
+    "yahoo_today": "NVDA",
+    "note": ""
+   },
+   {
+    "name": "Berkshire Hathaway",
+    "ticker_then": "BRK.B",
+    "yahoo_today": "BRK-B",
+    "note": ""
+   },
+   {
+    "name": "UnitedHealth Group",
+    "ticker_then": "UNH",
+    "yahoo_today": "UNH",
+    "note": ""
+   },
+   {
+    "name": "JPMorgan Chase",
+    "ticker_then": "JPM",
+    "yahoo_today": "JPM",
+    "note": ""
+   },
+   {
+    "name": "Visa",
+    "ticker_then": "V",
+    "yahoo_today": "V",
+    "note": ""
+   },
+   {
+    "name": "Johnson & Johnson",
+    "ticker_then": "JNJ",
+    "yahoo_today": "JNJ",
+    "note": ""
+   },
+   {
+    "name": "Home Depot",
+    "ticker_then": "HD",
+    "yahoo_today": "HD",
+    "note": ""
+   },
+   {
+    "name": "Walmart",
+    "ticker_then": "WMT",
+    "yahoo_today": "WMT",
+    "note": ""
+   },
+   {
+    "name": "Procter & Gamble",
+    "ticker_then": "PG",
+    "yahoo_today": "PG",
+    "note": ""
+   },
+   {
+    "name": "Mastercard",
+    "ticker_then": "MA",
+    "yahoo_today": "MA",
+    "note": ""
+   },
+   {
+    "name": "Pfizer",
+    "ticker_then": "PFE",
+    "yahoo_today": "PFE",
+    "note": ""
+   },
+   {
+    "name": "Bank of America",
+    "ticker_then": "BAC",
+    "yahoo_today": "BAC",
+    "note": ""
+   },
+   {
+    "name": "Walt Disney",
+    "ticker_then": "DIS",
+    "yahoo_today": "DIS",
+    "note": ""
+   },
+   {
+    "name": "Broadcom",
+    "ticker_then": "AVGO",
+    "yahoo_today": "AVGO",
+    "note": ""
+   },
+   {
+    "name": "Adobe",
+    "ticker_then": "ADBE",
+    "yahoo_today": "ADBE",
+    "note": ""
+   },
+   {
+    "name": "Cisco Systems",
+    "ticker_then": "CSCO",
+    "yahoo_today": "CSCO",
+    "note": ""
+   },
+   {
+    "name": "Eli Lilly",
+    "ticker_then": "LLY",
+    "yahoo_today": "LLY",
+    "note": ""
+   },
+   {
+    "name": "Nike",
+    "ticker_then": "NKE",
+    "yahoo_today": "NKE",
+    "note": ""
+   },
+   {
+    "name": "Netflix",
+    "ticker_then": "NFLX",
+    "yahoo_today": "NFLX",
+    "note": ""
+   },
+   {
+    "name": "Thermo Fisher Scientific",
+    "ticker_then": "TMO",
+    "yahoo_today": "TMO",
+    "note": ""
+   },
+   {
+    "name": "Accenture",
+    "ticker_then": "ACN",
+    "yahoo_today": "ACN",
+    "note": "Irish-domiciled, NYSE-listed S&P 500 member"
+   },
+   {
+    "name": "Exxon Mobil",
+    "ticker_then": "XOM",
+    "yahoo_today": "XOM",
+    "note": ""
+   },
+   {
+    "name": "Coca-Cola",
+    "ticker_then": "KO",
+    "yahoo_today": "KO",
+    "note": ""
+   },
+   {
+    "name": "Costco",
+    "ticker_then": "COST",
+    "yahoo_today": "COST",
+    "note": ""
+   }
+  ],
+  "2022": [
+   {
+    "name": "Apple",
+    "ticker_then": "AAPL",
+    "yahoo_today": "AAPL",
+    "note": ""
+   },
+   {
+    "name": "Microsoft",
+    "ticker_then": "MSFT",
+    "yahoo_today": "MSFT",
+    "note": ""
+   },
+   {
+    "name": "Alphabet",
+    "ticker_then": "GOOGL",
+    "yahoo_today": "GOOGL",
+    "note": "Class A; Class A+C weights combined"
+   },
+   {
+    "name": "Amazon",
+    "ticker_then": "AMZN",
+    "yahoo_today": "AMZN",
+    "note": ""
+   },
+   {
+    "name": "Berkshire Hathaway",
+    "ticker_then": "BRK.B",
+    "yahoo_today": "BRK-B",
+    "note": ""
+   },
+   {
+    "name": "UnitedHealth Group",
+    "ticker_then": "UNH",
+    "yahoo_today": "UNH",
+    "note": ""
+   },
+   {
+    "name": "Johnson & Johnson",
+    "ticker_then": "JNJ",
+    "yahoo_today": "JNJ",
+    "note": ""
+   },
+   {
+    "name": "Exxon Mobil",
+    "ticker_then": "XOM",
+    "yahoo_today": "XOM",
+    "note": ""
+   },
+   {
+    "name": "Visa",
+    "ticker_then": "V",
+    "yahoo_today": "V",
+    "note": ""
+   },
+   {
+    "name": "JPMorgan Chase",
+    "ticker_then": "JPM",
+    "yahoo_today": "JPM",
+    "note": ""
+   },
+   {
+    "name": "Walmart",
+    "ticker_then": "WMT",
+    "yahoo_today": "WMT",
+    "note": ""
+   },
+   {
+    "name": "NVIDIA",
+    "ticker_then": "NVDA",
+    "yahoo_today": "NVDA",
+    "note": ""
+   },
+   {
+    "name": "Procter & Gamble",
+    "ticker_then": "PG",
+    "yahoo_today": "PG",
+    "note": ""
+   },
+   {
+    "name": "Eli Lilly",
+    "ticker_then": "LLY",
+    "yahoo_today": "LLY",
+    "note": ""
+   },
+   {
+    "name": "Chevron",
+    "ticker_then": "CVX",
+    "yahoo_today": "CVX",
+    "note": ""
+   },
+   {
+    "name": "Mastercard",
+    "ticker_then": "MA",
+    "yahoo_today": "MA",
+    "note": ""
+   },
+   {
+    "name": "Tesla",
+    "ticker_then": "TSLA",
+    "yahoo_today": "TSLA",
+    "note": ""
+   },
+   {
+    "name": "Home Depot",
+    "ticker_then": "HD",
+    "yahoo_today": "HD",
+    "note": ""
+   },
+   {
+    "name": "Meta Platforms",
+    "ticker_then": "META",
+    "yahoo_today": "META",
+    "note": ""
+   },
+   {
+    "name": "Pfizer",
+    "ticker_then": "PFE",
+    "yahoo_today": "PFE",
+    "note": ""
+   },
+   {
+    "name": "AbbVie",
+    "ticker_then": "ABBV",
+    "yahoo_today": "ABBV",
+    "note": ""
+   },
+   {
+    "name": "Merck",
+    "ticker_then": "MRK",
+    "yahoo_today": "MRK",
+    "note": ""
+   },
+   {
+    "name": "Coca-Cola",
+    "ticker_then": "KO",
+    "yahoo_today": "KO",
+    "note": ""
+   },
+   {
+    "name": "PepsiCo",
+    "ticker_then": "PEP",
+    "yahoo_today": "PEP",
+    "note": ""
+   },
+   {
+    "name": "Bank of America",
+    "ticker_then": "BAC",
+    "yahoo_today": "BAC",
+    "note": ""
+   },
+   {
+    "name": "Broadcom",
+    "ticker_then": "AVGO",
+    "yahoo_today": "AVGO",
+    "note": ""
+   },
+   {
+    "name": "Oracle",
+    "ticker_then": "ORCL",
+    "yahoo_today": "ORCL",
+    "note": ""
+   },
+   {
+    "name": "Thermo Fisher Scientific",
+    "ticker_then": "TMO",
+    "yahoo_today": "TMO",
+    "note": ""
+   },
+   {
+    "name": "Costco",
+    "ticker_then": "COST",
+    "yahoo_today": "COST",
+    "note": ""
+   },
+   {
+    "name": "Cisco Systems",
+    "ticker_then": "CSCO",
+    "yahoo_today": "CSCO",
+    "note": ""
+   }
+  ],
+  "2023": [
+   {
+    "name": "Apple",
+    "ticker_then": "AAPL",
+    "yahoo_today": "AAPL",
+    "note": ""
+   },
+   {
+    "name": "Microsoft",
+    "ticker_then": "MSFT",
+    "yahoo_today": "MSFT",
+    "note": ""
+   },
+   {
+    "name": "Amazon",
+    "ticker_then": "AMZN",
+    "yahoo_today": "AMZN",
+    "note": ""
+   },
+   {
+    "name": "Alphabet",
+    "ticker_then": "GOOGL",
+    "yahoo_today": "GOOGL",
+    "note": "Class A; Class A+C weights combined"
+   },
+   {
+    "name": "NVIDIA",
+    "ticker_then": "NVDA",
+    "yahoo_today": "NVDA",
+    "note": ""
+   },
+   {
+    "name": "Meta Platforms",
+    "ticker_then": "META",
+    "yahoo_today": "META",
+    "note": ""
+   },
+   {
+    "name": "Berkshire Hathaway",
+    "ticker_then": "BRK.B",
+    "yahoo_today": "BRK-B",
+    "note": ""
+   },
+   {
+    "name": "Tesla",
+    "ticker_then": "TSLA",
+    "yahoo_today": "TSLA",
+    "note": ""
+   },
+   {
+    "name": "Eli Lilly",
+    "ticker_then": "LLY",
+    "yahoo_today": "LLY",
+    "note": ""
+   },
+   {
+    "name": "Visa",
+    "ticker_then": "V",
+    "yahoo_today": "V",
+    "note": ""
+   },
+   {
+    "name": "JPMorgan Chase",
+    "ticker_then": "JPM",
+    "yahoo_today": "JPM",
+    "note": ""
+   },
+   {
+    "name": "Broadcom",
+    "ticker_then": "AVGO",
+    "yahoo_today": "AVGO",
+    "note": ""
+   },
+   {
+    "name": "UnitedHealth Group",
+    "ticker_then": "UNH",
+    "yahoo_today": "UNH",
+    "note": ""
+   },
+   {
+    "name": "Walmart",
+    "ticker_then": "WMT",
+    "yahoo_today": "WMT",
+    "note": ""
+   },
+   {
+    "name": "Exxon Mobil",
+    "ticker_then": "XOM",
+    "yahoo_today": "XOM",
+    "note": ""
+   },
+   {
+    "name": "Mastercard",
+    "ticker_then": "MA",
+    "yahoo_today": "MA",
+    "note": ""
+   },
+   {
+    "name": "Johnson & Johnson",
+    "ticker_then": "JNJ",
+    "yahoo_today": "JNJ",
+    "note": ""
+   },
+   {
+    "name": "Home Depot",
+    "ticker_then": "HD",
+    "yahoo_today": "HD",
+    "note": ""
+   },
+   {
+    "name": "Procter & Gamble",
+    "ticker_then": "PG",
+    "yahoo_today": "PG",
+    "note": ""
+   },
+   {
+    "name": "Costco",
+    "ticker_then": "COST",
+    "yahoo_today": "COST",
+    "note": ""
+   },
+   {
+    "name": "Oracle",
+    "ticker_then": "ORCL",
+    "yahoo_today": "ORCL",
+    "note": ""
+   },
+   {
+    "name": "Chevron",
+    "ticker_then": "CVX",
+    "yahoo_today": "CVX",
+    "note": ""
+   },
+   {
+    "name": "Merck",
+    "ticker_then": "MRK",
+    "yahoo_today": "MRK",
+    "note": ""
+   },
+   {
+    "name": "AbbVie",
+    "ticker_then": "ABBV",
+    "yahoo_today": "ABBV",
+    "note": ""
+   },
+   {
+    "name": "Adobe",
+    "ticker_then": "ADBE",
+    "yahoo_today": "ADBE",
+    "note": ""
+   },
+   {
+    "name": "Salesforce",
+    "ticker_then": "CRM",
+    "yahoo_today": "CRM",
+    "note": ""
+   },
+   {
+    "name": "Coca-Cola",
+    "ticker_then": "KO",
+    "yahoo_today": "KO",
+    "note": ""
+   },
+   {
+    "name": "Advanced Micro Devices",
+    "ticker_then": "AMD",
+    "yahoo_today": "AMD",
+    "note": ""
+   },
+   {
+    "name": "PepsiCo",
+    "ticker_then": "PEP",
+    "yahoo_today": "PEP",
+    "note": ""
+   },
+   {
+    "name": "Bank of America",
+    "ticker_then": "BAC",
+    "yahoo_today": "BAC",
+    "note": ""
+   }
+  ],
+  "2024": [
+   {
+    "name": "Apple",
+    "ticker_then": "AAPL",
+    "yahoo_today": "AAPL",
+    "note": ""
+   },
+   {
+    "name": "NVIDIA",
+    "ticker_then": "NVDA",
+    "yahoo_today": "NVDA",
+    "note": ""
+   },
+   {
+    "name": "Microsoft",
+    "ticker_then": "MSFT",
+    "yahoo_today": "MSFT",
+    "note": ""
+   },
+   {
+    "name": "Amazon",
+    "ticker_then": "AMZN",
+    "yahoo_today": "AMZN",
+    "note": ""
+   },
+   {
+    "name": "Alphabet",
+    "ticker_then": "GOOGL",
+    "yahoo_today": "GOOGL",
+    "note": "Class A; Class A+C weights combined"
+   },
+   {
+    "name": "Meta Platforms",
+    "ticker_then": "META",
+    "yahoo_today": "META",
+    "note": ""
+   },
+   {
+    "name": "Tesla",
+    "ticker_then": "TSLA",
+    "yahoo_today": "TSLA",
+    "note": ""
+   },
+   {
+    "name": "Broadcom",
+    "ticker_then": "AVGO",
+    "yahoo_today": "AVGO",
+    "note": ""
+   },
+   {
+    "name": "Berkshire Hathaway",
+    "ticker_then": "BRK.B",
+    "yahoo_today": "BRK-B",
+    "note": ""
+   },
+   {
+    "name": "Eli Lilly",
+    "ticker_then": "LLY",
+    "yahoo_today": "LLY",
+    "note": ""
+   },
+   {
+    "name": "Walmart",
+    "ticker_then": "WMT",
+    "yahoo_today": "WMT",
+    "note": ""
+   },
+   {
+    "name": "JPMorgan Chase",
+    "ticker_then": "JPM",
+    "yahoo_today": "JPM",
+    "note": ""
+   },
+   {
+    "name": "Visa",
+    "ticker_then": "V",
+    "yahoo_today": "V",
+    "note": ""
+   },
+   {
+    "name": "Mastercard",
+    "ticker_then": "MA",
+    "yahoo_today": "MA",
+    "note": ""
+   },
+   {
+    "name": "Exxon Mobil",
+    "ticker_then": "XOM",
+    "yahoo_today": "XOM",
+    "note": ""
+   },
+   {
+    "name": "Oracle",
+    "ticker_then": "ORCL",
+    "yahoo_today": "ORCL",
+    "note": ""
+   },
+   {
+    "name": "UnitedHealth Group",
+    "ticker_then": "UNH",
+    "yahoo_today": "UNH",
+    "note": ""
+   },
+   {
+    "name": "Costco",
+    "ticker_then": "COST",
+    "yahoo_today": "COST",
+    "note": ""
+   },
+   {
+    "name": "Procter & Gamble",
+    "ticker_then": "PG",
+    "yahoo_today": "PG",
+    "note": ""
+   },
+   {
+    "name": "Home Depot",
+    "ticker_then": "HD",
+    "yahoo_today": "HD",
+    "note": ""
+   },
+   {
+    "name": "Netflix",
+    "ticker_then": "NFLX",
+    "yahoo_today": "NFLX",
+    "note": ""
+   },
+   {
+    "name": "Johnson & Johnson",
+    "ticker_then": "JNJ",
+    "yahoo_today": "JNJ",
+    "note": ""
+   },
+   {
+    "name": "Salesforce",
+    "ticker_then": "CRM",
+    "yahoo_today": "CRM",
+    "note": ""
+   },
+   {
+    "name": "AbbVie",
+    "ticker_then": "ABBV",
+    "yahoo_today": "ABBV",
+    "note": ""
+   },
+   {
+    "name": "Bank of America",
+    "ticker_then": "BAC",
+    "yahoo_today": "BAC",
+    "note": ""
+   },
+   {
+    "name": "Coca-Cola",
+    "ticker_then": "KO",
+    "yahoo_today": "KO",
+    "note": ""
+   },
+   {
+    "name": "Chevron",
+    "ticker_then": "CVX",
+    "yahoo_today": "CVX",
+    "note": ""
+   },
+   {
+    "name": "T-Mobile US",
+    "ticker_then": "TMUS",
+    "yahoo_today": "TMUS",
+    "note": ""
+   },
+   {
+    "name": "Merck",
+    "ticker_then": "MRK",
+    "yahoo_today": "MRK",
+    "note": ""
+   },
+   {
+    "name": "Cisco Systems",
+    "ticker_then": "CSCO",
+    "yahoo_today": "CSCO",
+    "note": ""
+   }
+  ],
+  "2025": [
+   {
+    "name": "NVIDIA",
+    "ticker_then": "NVDA",
+    "yahoo_today": "NVDA",
+    "note": ""
+   },
+   {
+    "name": "Apple",
+    "ticker_then": "AAPL",
+    "yahoo_today": "AAPL",
+    "note": ""
+   },
+   {
+    "name": "Microsoft",
+    "ticker_then": "MSFT",
+    "yahoo_today": "MSFT",
+    "note": ""
+   },
+   {
+    "name": "Alphabet",
+    "ticker_then": "GOOGL",
+    "yahoo_today": "GOOGL",
+    "note": "Class A; Class A+C weights combined"
+   },
+   {
+    "name": "Amazon",
+    "ticker_then": "AMZN",
+    "yahoo_today": "AMZN",
+    "note": ""
+   },
+   {
+    "name": "Meta Platforms",
+    "ticker_then": "META",
+    "yahoo_today": "META",
+    "note": ""
+   },
+   {
+    "name": "Broadcom",
+    "ticker_then": "AVGO",
+    "yahoo_today": "AVGO",
+    "note": ""
+   },
+   {
+    "name": "Tesla",
+    "ticker_then": "TSLA",
+    "yahoo_today": "TSLA",
+    "note": ""
+   },
+   {
+    "name": "Berkshire Hathaway",
+    "ticker_then": "BRK.B",
+    "yahoo_today": "BRK-B",
+    "note": ""
+   },
+   {
+    "name": "Eli Lilly",
+    "ticker_then": "LLY",
+    "yahoo_today": "LLY",
+    "note": ""
+   },
+   {
+    "name": "Walmart",
+    "ticker_then": "WMT",
+    "yahoo_today": "WMT",
+    "note": ""
+   },
+   {
+    "name": "JPMorgan Chase",
+    "ticker_then": "JPM",
+    "yahoo_today": "JPM",
+    "note": ""
+   },
+   {
+    "name": "Visa",
+    "ticker_then": "V",
+    "yahoo_today": "V",
+    "note": ""
+   },
+   {
+    "name": "Oracle",
+    "ticker_then": "ORCL",
+    "yahoo_today": "ORCL",
+    "note": ""
+   },
+   {
+    "name": "Mastercard",
+    "ticker_then": "MA",
+    "yahoo_today": "MA",
+    "note": ""
+   },
+   {
+    "name": "Exxon Mobil",
+    "ticker_then": "XOM",
+    "yahoo_today": "XOM",
+    "note": ""
+   },
+   {
+    "name": "Johnson & Johnson",
+    "ticker_then": "JNJ",
+    "yahoo_today": "JNJ",
+    "note": ""
+   },
+   {
+    "name": "Palantir Technologies",
+    "ticker_then": "PLTR",
+    "yahoo_today": "PLTR",
+    "note": ""
+   },
+   {
+    "name": "AbbVie",
+    "ticker_then": "ABBV",
+    "yahoo_today": "ABBV",
+    "note": ""
+   },
+   {
+    "name": "Netflix",
+    "ticker_then": "NFLX",
+    "yahoo_today": "NFLX",
+    "note": ""
+   },
+   {
+    "name": "Costco",
+    "ticker_then": "COST",
+    "yahoo_today": "COST",
+    "note": ""
+   },
+   {
+    "name": "Bank of America",
+    "ticker_then": "BAC",
+    "yahoo_today": "BAC",
+    "note": ""
+   },
+   {
+    "name": "Advanced Micro Devices",
+    "ticker_then": "AMD",
+    "yahoo_today": "AMD",
+    "note": ""
+   },
+   {
+    "name": "Home Depot",
+    "ticker_then": "HD",
+    "yahoo_today": "HD",
+    "note": ""
+   },
+   {
+    "name": "Procter & Gamble",
+    "ticker_then": "PG",
+    "yahoo_today": "PG",
+    "note": ""
+   },
+   {
+    "name": "GE Aerospace (General Electric)",
+    "ticker_then": "GE",
+    "yahoo_today": "GE",
+    "note": "Yahoo history split/spin-off adjusted (1:8 reverse split 2021; GE HealthCare 2023, GE Vernova 2024 spun off)"
+   },
+   {
+    "name": "Micron Technology",
+    "ticker_then": "MU",
+    "yahoo_today": "MU",
+    "note": ""
+   },
+   {
+    "name": "Chevron",
+    "ticker_then": "CVX",
+    "yahoo_today": "CVX",
+    "note": ""
+   },
+   {
+    "name": "Cisco Systems",
+    "ticker_then": "CSCO",
+    "yahoo_today": "CSCO",
+    "note": ""
+   },
+   {
+    "name": "Coca-Cola",
+    "ticker_then": "KO",
+    "yahoo_today": "KO",
+    "note": ""
+   }
+  ]
+ },
+ "quality": {
+  "2005": {
+   "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/0000036405/000093247106000510/indexncsr.htm",
+    "https://www.finhacker.cz/en/top-20-sp-500-companies-by-market-cap/",
+    "https://stockanalysis.com/stocks/mrk/market-cap/"
+   ],
+   "confidence": "mittel",
+   "comment": "All 30 sourced: Vanguard 500 Index Fund holdings at 31.12.2005 (SEC N-CSR; S&P 500 float-adjusted weights), ranked by market cap; closely held / borderline names corrected with full year-end market caps (stockanalysis.com, finhacker.cz). Ranks 26-30 ($bn): WB 82, HPQ 82, TWX 81, COP 81, QCOM 71. Next (not included): Dell (old, private 2013) (DELL) 71, Medtronic (MDT) 70, Merck (MRK) 70, Sprint Nextel (S) 69. Gap #30 vs #31: 0.4% -> last slot(s) are a near-tie, membership of the lowest 1-3 names is fuzzy. Not S&P 500 members at 12/2005 and therefore excluded per rule although large enough by market cap: Berkshire Hathaway (joined 2/2010) and Google (joined 3/2006)."
+  },
+  "2006": {
+   "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/0000036405/000093247107000538/indexfundsfinal.htm",
+    "https://www.finhacker.cz/en/top-20-sp-500-companies-by-market-cap/",
+    "https://stockanalysis.com/stocks/cmcsa/market-cap/",
+    "https://stockanalysis.com/stocks/gs/market-cap/",
+    "https://stockanalysis.com/stocks/hd/market-cap/",
+    "https://stockanalysis.com/stocks/mrk/market-cap/",
+    "https://stockanalysis.com/stocks/ms/market-cap/",
+    "https://stockanalysis.com/stocks/orcl/market-cap/",
+    "https://stockanalysis.com/stocks/pep/market-cap/"
+   ],
+   "confidence": "mittel",
+   "comment": "All 30 sourced: Vanguard 500 Index Fund holdings at 31.12.2006 (SEC N-CSR; S&P 500 float-adjusted weights), ranked by market cap; closely held / borderline names corrected with full year-end market caps (stockanalysis.com, finhacker.cz). Ranks 26-30 ($bn): MRK 95, ORCL 89, CMCSA 88, TWX 87, MS 86. Next (not included): Goldman Sachs (GS) 85, Merrill Lynch (MER) 82, Home Depot (HD) 82, United Parcel Service (UPS) 80. Gap #30 vs #31: 1.5% -> last slot(s) are a near-tie, membership of the lowest 1-3 names is fuzzy. BellSouth (merger closed 29.12.2006, still shown as separate fund holding) merged into AT&T. Berkshire Hathaway excluded (not an S&P 500 member until 2/2010)."
+  },
+  "2007": {
+   "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/0000862084/000093247108000923/instlindexfundsfinal.htm",
+    "https://www.finhacker.cz/en/top-20-sp-500-companies-by-market-cap/",
+    "https://stockanalysis.com/stocks/abt/market-cap/",
+    "https://stockanalysis.com/stocks/gs/market-cap/",
+    "https://stockanalysis.com/stocks/mrk/market-cap/",
+    "https://stockanalysis.com/stocks/orcl/market-cap/",
+    "https://stockanalysis.com/stocks/pep/market-cap/",
+    "https://stockanalysis.com/stocks/slb/market-cap/",
+    "https://stockanalysis.com/stocks/unh/market-cap/",
+    "https://stockanalysis.com/stocks/ups/market-cap/",
+    "https://stockanalysis.com/stocks/wfc/market-cap/"
+   ],
+   "confidence": "hoch",
+   "comment": "All 30 sourced: Vanguard Institutional Index Fund holdings at 31.12.2007 (SEC N-CSR; S&P 500 float-adjusted weights), ranked by market cap; closely held / borderline names corrected with full year-end market caps (stockanalysis.com, finhacker.cz). Ranks 26-30 ($bn): SLB 118, ORCL 116, WFC 101, ABT 87, GS 86. Next (not included): UnitedHealth Group (UNH) 75, United Technologies (UTX) 75, Wachovia (WB) 74, United Parcel Service (UPS) 74. Gap #30 vs #31: 12.1%. Berkshire Hathaway excluded (not an S&P 500 member until 2/2010)."
+  },
+  "2008": {
+   "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/0000036405/000093247109000808/indexfundsfinal.htm",
+    "https://www.finhacker.cz/en/top-20-sp-500-companies-by-market-cap/",
+    "https://stockanalysis.com/stocks/cmcsa/market-cap/",
+    "https://stockanalysis.com/stocks/intc/market-cap/",
+    "https://stockanalysis.com/stocks/qcom/market-cap/"
+   ],
+   "confidence": "hoch",
+   "comment": "All 30 sourced: Vanguard 500 Index Fund holdings at 31.12.2008 (SEC N-CSR; S&P 500 float-adjusted weights), ranked by market cap; closely held / borderline names corrected with full year-end market caps (stockanalysis.com, finhacker.cz). Ranks 26-30 ($bn): MCD 69, MRK 64, AMGN 61, QCOM 59, UPS 55. Next (not included): United Technologies (UTX) 51, Schlumberger (SLB) 51, Wyeth (WYE) 50, Comcast (CMCSA) 49. Gap #30 vs #31: 7.2%. Berkshire Hathaway excluded (not an S&P 500 member until 2/2010)."
+  },
+  "2009": {
+   "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/36405/000093247110001494/indexfinal.htm",
+    "https://www.finhacker.cz/en/top-20-sp-500-companies-by-market-cap/",
+    "https://stockanalysis.com/stocks/abt/market-cap/",
+    "https://stockanalysis.com/stocks/c/market-cap/",
+    "https://stockanalysis.com/stocks/gs/market-cap/",
+    "https://stockanalysis.com/stocks/mcd/market-cap/",
+    "https://stockanalysis.com/stocks/oxy/market-cap/",
+    "https://stockanalysis.com/stocks/pep/market-cap/",
+    "https://stockanalysis.com/stocks/pm/market-cap/",
+    "https://stockanalysis.com/stocks/qcom/market-cap/",
+    "https://stockanalysis.com/stocks/slb/market-cap/"
+   ],
+   "confidence": "hoch",
+   "comment": "All 30 sourced: Vanguard 500 Index Fund holdings at 31.12.2009 (SEC N-CSR; S&P 500 float-adjusted weights), ranked by market cap; closely held / borderline names corrected with full year-end market caps (stockanalysis.com, finhacker.cz). Ranks 26-30 ($bn): ABT 84, SLB 78, QCOM 77, C 76, COP 76. Next (not included): McDonald's (MCD) 67, Occidental (OXY) 66, United Technologies (UTX) 65, Walt Disney (DIS) 62. Gap #30 vs #31: 10.9%. Berkshire Hathaway excluded (not an S&P 500 member until 2/2010). Citigroup is in by full market cap (index weight was cut for the US Treasury stake); by pure index weight McDonald's would be #30 instead."
+  },
+  "2010": {
+   "source_urls": [
+    "https://sec.gov/Archives/edgar/data/36405/000093247111001799/indexfunds_final.htm",
+    "https://www.finhacker.cz/en/top-20-sp-500-companies-by-market-cap/",
+    "https://stockanalysis.com/stocks/amzn/market-cap/"
+   ],
+   "confidence": "mittel",
+   "comment": "All 30 sourced: Vanguard 500 Index Fund holdings at 31.12.2010 (SEC N-CSR; S&P 500 float-adjusted weights), ranked by market cap; closely held / borderline names corrected with full year-end market caps (stockanalysis.com, finhacker.cz). Ranks 26-30 ($bn): VZ 101, COP 100, HPQ 95, GS 86, MCD 81. Next (not included): Amazon (AMZN) 81, Qualcomm (QCOM) 80, Occidental (OXY) 80, Abbott Laboratories (ABT) 74. Gap #30 vs #31: 0.4% -> last slot(s) are a near-tie, membership of the lowest 1-3 names is fuzzy."
+  },
+  "2011": {
+   "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/0000036405/000093247112003827/indexfundsfinal.htm",
+    "https://www.finhacker.cz/en/top-20-sp-500-companies-by-market-cap/",
+    "https://stockanalysis.com/stocks/amzn/market-cap/",
+    "https://stockanalysis.com/stocks/csco/market-cap/",
+    "https://stockanalysis.com/stocks/dis/market-cap/",
+    "https://stockanalysis.com/stocks/mcd/market-cap/",
+    "https://stockanalysis.com/stocks/qcom/market-cap/",
+    "https://stockanalysis.com/stocks/slb/market-cap/",
+    "https://stockanalysis.com/stocks/ups/market-cap/",
+    "https://stockanalysis.com/stocks/v/market-cap/"
+   ],
+   "confidence": "mittel",
+   "comment": "All 30 sourced: Vanguard 500 Index Fund holdings at 31.12.2011 (SEC N-CSR; S&P 500 float-adjusted weights), ranked by market cap; closely held / borderline names corrected with full year-end market caps (stockanalysis.com, finhacker.cz). Ranks 26-30 ($bn): QCOM 92, SLB 92, ABT 88, AMZN 79, C 77. Next (not included): Occidental (OXY) 76, United Parcel Service (UPS) 71, Visa (V) 68, Walt Disney (DIS) 67. Gap #30 vs #31: 1.1% -> last slot(s) are a near-tie, membership of the lowest 1-3 names is fuzzy."
+  },
+  "2012": {
+   "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/0000036405/000093247113005759/index_final.htm",
+    "https://www.finhacker.cz/en/top-20-sp-500-companies-by-market-cap/",
+    "https://stockanalysis.com/stocks/abt/market-cap/",
+    "https://stockanalysis.com/stocks/amzn/market-cap/",
+    "https://stockanalysis.com/stocks/c/market-cap/",
+    "https://stockanalysis.com/stocks/cmcsa/market-cap/",
+    "https://stockanalysis.com/stocks/dis/market-cap/",
+    "https://stockanalysis.com/stocks/hd/market-cap/",
+    "https://stockanalysis.com/stocks/mcd/market-cap/",
+    "https://stockanalysis.com/stocks/pep/market-cap/",
+    "https://stockanalysis.com/stocks/slb/market-cap/",
+    "https://stockanalysis.com/stocks/v/market-cap/"
+   ],
+   "confidence": "hoch",
+   "comment": "All 30 sourced: Vanguard 500 Index Fund holdings at 31.12.2012 (SEC N-CSR; S&P 500 float-adjusted weights), ranked by market cap; closely held / borderline names corrected with full year-end market caps (stockanalysis.com, finhacker.cz). Ranks 26-30 ($bn): CSCO 104, ABT 104, INTC 103, V 101, CMCSA 99. Next (not included): Home Depot (HD) 92, Schlumberger (SLB) 92, McDonald's (MCD) 89, Walt Disney (DIS) 88. Gap #30 vs #31: 6.8%."
+  },
+  "2013": {
+   "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/0000036405/000093247114004906/index_final.htm",
+    "https://www.finhacker.cz/en/top-20-sp-500-companies-by-market-cap/",
+    "https://stockanalysis.com/stocks/cmcsa/market-cap/",
+    "https://stockanalysis.com/stocks/csco/market-cap/",
+    "https://stockanalysis.com/stocks/dis/market-cap/",
+    "https://stockanalysis.com/stocks/gild/market-cap/",
+    "https://stockanalysis.com/stocks/hd/market-cap/",
+    "https://stockanalysis.com/stocks/intc/market-cap/",
+    "https://stockanalysis.com/stocks/meta/market-cap/",
+    "https://stockanalysis.com/stocks/mrk/market-cap/",
+    "https://stockanalysis.com/stocks/pep/market-cap/",
+    "https://stockanalysis.com/stocks/pm/market-cap/",
+    "https://stockanalysis.com/stocks/qcom/market-cap/",
+    "https://stockanalysis.com/stocks/slb/market-cap/",
+    "https://stockanalysis.com/stocks/v/market-cap/"
+   ],
+   "confidence": "hoch",
+   "comment": "All 30 sourced: Vanguard 500 Index Fund holdings at 31.12.2013 (SEC N-CSR; S&P 500 float-adjusted weights), ranked by market cap; closely held / borderline names corrected with full year-end market caps (stockanalysis.com, finhacker.cz). Ranks 26-30 ($bn): DIS 134, META 134, INTC 129, PEP 127, QCOM 125. Next (not included): Cisco Systems (CSCO) 120, Schlumberger (SLB) 119, Home Depot (HD) 116, Gilead Sciences (GILD) 115. Gap #30 vs #31: 4.4%."
+  },
+  "2014": {
+   "source_urls": [
+    "https://sec.gov/Archives/edgar/data/36405/000093247115005659/index_final.htm",
+    "https://www.finhacker.cz/en/top-20-sp-500-companies-by-market-cap/",
+    "https://stockanalysis.com/stocks/amzn/market-cap/",
+    "https://stockanalysis.com/stocks/c/market-cap/",
+    "https://stockanalysis.com/stocks/cmcsa/market-cap/",
+    "https://stockanalysis.com/stocks/csco/market-cap/",
+    "https://stockanalysis.com/stocks/dis/market-cap/",
+    "https://stockanalysis.com/stocks/gild/market-cap/",
+    "https://stockanalysis.com/stocks/hd/market-cap/",
+    "https://stockanalysis.com/stocks/ibm/market-cap/",
+    "https://stockanalysis.com/stocks/mrk/market-cap/",
+    "https://stockanalysis.com/stocks/pep/market-cap/",
+    "https://stockanalysis.com/stocks/pm/market-cap/",
+    "https://stockanalysis.com/stocks/qcom/market-cap/",
+    "https://stockanalysis.com/stocks/v/market-cap/"
+   ],
+   "confidence": "mittel",
+   "comment": "All 30 sourced: Vanguard 500 Index Fund holdings at 31.12.2014 (SEC N-CSR; S&P 500 float-adjusted weights), ranked by market cap; closely held / borderline names corrected with full year-end market caps (stockanalysis.com, finhacker.cz). Ranks 26-30 ($bn): CMCSA 149, AMZN 144, CSCO 142, GILD 142, PEP 142. Next (not included): Home Depot (HD) 138, Philip Morris International (PM) 127, Qualcomm (QCOM) 124, Amgen (AMGN) 120. Gap #30 vs #31: 2.3% -> last slot(s) are a near-tie, membership of the lowest 1-3 names is fuzzy."
+  },
+  "2015": {
+   "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/0000036405/000093247116012795/indexfunds_final.htm",
+    "https://www.finhacker.cz/en/top-20-sp-500-companies-by-market-cap/",
+    "https://stockanalysis.com/stocks/c/market-cap/",
+    "https://stockanalysis.com/stocks/cmcsa/market-cap/",
+    "https://stockanalysis.com/stocks/csco/market-cap/",
+    "https://stockanalysis.com/stocks/cvx/market-cap/",
+    "https://stockanalysis.com/stocks/gild/market-cap/",
+    "https://stockanalysis.com/stocks/hd/market-cap/",
+    "https://stockanalysis.com/stocks/ibm/market-cap/",
+    "https://stockanalysis.com/stocks/intc/market-cap/",
+    "https://stockanalysis.com/stocks/mrk/market-cap/",
+    "https://stockanalysis.com/stocks/orcl/market-cap/",
+    "https://stockanalysis.com/stocks/pep/market-cap/",
+    "https://stockanalysis.com/stocks/pm/market-cap/"
+   ],
+   "confidence": "mittel",
+   "comment": "All 30 sourced: Vanguard 500 Index Fund holdings at 31.12.2015 (SEC N-CSR; S&P 500 float-adjusted weights), ranked by market cap; closely held / borderline names corrected with full year-end market caps (stockanalysis.com, finhacker.cz). Ranks 26-30 ($bn): MRK 148, GILD 146, PEP 146, CMCSA 139, CSCO 138. Next (not included): Philip Morris International (PM) 136, IBM (IBM) 134, Allergan plc (AGN) 123, Amgen (AMGN) 122. Gap #30 vs #31: 1.2% -> last slot(s) are a near-tie, membership of the lowest 1-3 names is fuzzy. By pure index weight Allergan plc (delisted 2020, no Yahoo history) and Philip Morris Intl would be #29/#30; by full market cap Wal-Mart and Oracle (low free float) rank above them."
+  },
+  "2016": {
+   "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/0000036405/000093247117003352/index_final.htm",
+    "https://www.finhacker.cz/en/top-20-sp-500-companies-by-market-cap/",
+    "https://stockanalysis.com/stocks/cmcsa/market-cap/",
+    "https://stockanalysis.com/stocks/dis/market-cap/",
+    "https://stockanalysis.com/stocks/ibm/market-cap/",
+    "https://stockanalysis.com/stocks/orcl/market-cap/"
+   ],
+   "confidence": "mittel",
+   "comment": "All 30 sourced: Vanguard 500 Index Fund holdings at 31.12.2016 (SEC N-CSR; S&P 500 float-adjusted weights), ranked by market cap; closely held / borderline names corrected with full year-end market caps (stockanalysis.com, finhacker.cz). Ranks 26-30 ($bn): MRK 162, IBM 158, ORCL 158, UNH 152, CSCO 152. Next (not included): PepsiCo (PEP) 150, Philip Morris International (PM) 142, Altria Group (MO) 132, Schlumberger (SLB) 117. Gap #30 vs #31: 1.1% -> last slot(s) are a near-tie, membership of the lowest 1-3 names is fuzzy."
+  },
+  "2017": {
+   "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/0000036405/000093247118005288/indexfunds_final.htm",
+    "https://www.finhacker.cz/en/top-20-sp-500-companies-by-market-cap/",
+    "https://stockanalysis.com/stocks/c/market-cap/",
+    "https://stockanalysis.com/stocks/cmcsa/market-cap/",
+    "https://stockanalysis.com/stocks/ko/market-cap/",
+    "https://stockanalysis.com/stocks/ma/market-cap/",
+    "https://stockanalysis.com/stocks/orcl/market-cap/",
+    "https://stockanalysis.com/stocks/pep/market-cap/",
+    "https://stockanalysis.com/stocks/pm/market-cap/"
+   ],
+   "confidence": "mittel",
+   "comment": "All 30 sourced: Vanguard 500 Index Fund holdings at 31.12.2017 (SEC N-CSR; S&P 500 float-adjusted weights), ranked by market cap; closely held / borderline names corrected with full year-end market caps (stockanalysis.com, finhacker.cz). Ranks 26-30 ($bn): CMCSA 187, PEP 171, DD 167, BA 165, PM 164. Next (not included): Walt Disney (DIS) 162, Mastercard (MA) 160, AbbVie (ABBV) 154, Merck (MRK) 154. Gap #30 vs #31: 1.0% -> last slot(s) are a near-tie, membership of the lowest 1-3 names is fuzzy."
+  },
+  "2018": {
+   "source_urls": [
+    "https://sec.gov/Archives/edgar/data/862084/000110465919011821/a19-2848_1ncsr.htm",
+    "https://www.finhacker.cz/en/top-20-sp-500-companies-by-market-cap/",
+    "https://stockanalysis.com/stocks/abt/market-cap/",
+    "https://stockanalysis.com/stocks/c/market-cap/",
+    "https://stockanalysis.com/stocks/cmcsa/market-cap/",
+    "https://stockanalysis.com/stocks/csco/market-cap/",
+    "https://stockanalysis.com/stocks/dis/market-cap/",
+    "https://stockanalysis.com/stocks/hd/market-cap/",
+    "https://stockanalysis.com/stocks/ko/market-cap/",
+    "https://stockanalysis.com/stocks/ma/market-cap/",
+    "https://stockanalysis.com/stocks/mcd/market-cap/",
+    "https://stockanalysis.com/stocks/mrk/market-cap/",
+    "https://stockanalysis.com/stocks/orcl/market-cap/",
+    "https://stockanalysis.com/stocks/pep/market-cap/"
+   ],
+   "confidence": "hoch",
+   "comment": "All 30 sourced: Vanguard Institutional Index Fund holdings at 31.12.2018 (SEC N-CSR; S&P 500 float-adjusted weights), ranked by market cap; closely held / borderline names corrected with full year-end market caps (stockanalysis.com, finhacker.cz). Ranks 26-30 ($bn): BA 170, DIS 163, ORCL 162, PEP 156, CMCSA 155. Next (not included): AbbVie (ABBV) 138, McDonald's (MCD) 137, Citigroup (C) 127, Abbott Laboratories (ABT) 127. Gap #30 vs #31: 10.8%."
+  },
+  "2019": {
+   "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/36405/000110465920027799/tm206610-1_ncsr.htm",
+    "https://www.finhacker.cz/en/top-20-sp-500-companies-by-market-cap/",
+    "https://stockanalysis.com/stocks/abt/market-cap/",
+    "https://stockanalysis.com/stocks/c/market-cap/",
+    "https://stockanalysis.com/stocks/cmcsa/market-cap/",
+    "https://stockanalysis.com/stocks/csco/market-cap/",
+    "https://stockanalysis.com/stocks/cvx/market-cap/",
+    "https://stockanalysis.com/stocks/ko/market-cap/",
+    "https://stockanalysis.com/stocks/mrk/market-cap/",
+    "https://stockanalysis.com/stocks/nke/market-cap/",
+    "https://stockanalysis.com/stocks/orcl/market-cap/",
+    "https://stockanalysis.com/stocks/pep/market-cap/",
+    "https://stockanalysis.com/stocks/pfe/market-cap/",
+    "https://stockanalysis.com/stocks/wfc/market-cap/"
+   ],
+   "confidence": "mittel",
+   "comment": "All 30 sourced: Vanguard 500 Index Fund holdings at 31.12.2019 (SEC N-CSR; S&P 500 float-adjusted weights), ranked by market cap; closely held / borderline names corrected with full year-end market caps (stockanalysis.com, finhacker.cz). Ranks 26-30 ($bn): CMCSA 205, CSCO 203, PEP 191, C 174, BA 174. Next (not included): Oracle (ORCL) 170, Adobe (ADBE) 159, Nike (NKE) 158, Abbott Laboratories (ABT) 154. Gap #30 vs #31: 2.1% -> last slot(s) are a near-tie, membership of the lowest 1-3 names is fuzzy."
+  },
+  "2020": {
+   "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/36405/000110465921029832/tm213573d1_ncsr.htm",
+    "https://www.finhacker.cz/en/top-20-sp-500-companies-by-market-cap/",
+    "https://stockanalysis.com/stocks/cmcsa/market-cap/",
+    "https://stockanalysis.com/stocks/ko/market-cap/",
+    "https://stockanalysis.com/stocks/nke/market-cap/",
+    "https://stockanalysis.com/stocks/orcl/market-cap/"
+   ],
+   "confidence": "mittel",
+   "comment": "All 30 sourced: Vanguard 500 Index Fund holdings at 31.12.2020 (SEC N-CSR; S&P 500 float-adjusted weights), ranked by market cap; closely held / borderline names corrected with full year-end market caps (stockanalysis.com, finhacker.cz). Ranks 26-30 ($bn): MRK 207, PEP 205, T 205, PFE 205, INTC 204. Next (not included): Salesforce (CRM) 204, Abbott Laboratories (ABT) 194, Oracle (ORCL) 190, AbbVie (ABBV) 189. Gap #30 vs #31: 0.3% -> last slot(s) are a near-tie, membership of the lowest 1-3 names is fuzzy."
+  },
+  "2021": {
+   "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/36405/000110465922028420/tm225037d1_ncsr.htm",
+    "https://www.finhacker.cz/en/top-20-sp-500-companies-by-market-cap/",
+    "https://stockanalysis.com/stocks/abt/market-cap/",
+    "https://stockanalysis.com/stocks/cost/market-cap/",
+    "https://stockanalysis.com/stocks/crm/market-cap/",
+    "https://stockanalysis.com/stocks/csco/market-cap/",
+    "https://stockanalysis.com/stocks/ko/market-cap/",
+    "https://stockanalysis.com/stocks/lly/market-cap/",
+    "https://stockanalysis.com/stocks/nke/market-cap/",
+    "https://stockanalysis.com/stocks/pep/market-cap/"
+   ],
+   "confidence": "mittel",
+   "comment": "All 30 sourced: Vanguard 500 Index Fund holdings at 31.12.2021 (SEC N-CSR; S&P 500 float-adjusted weights), ranked by market cap; closely held / borderline names corrected with full year-end market caps (stockanalysis.com, finhacker.cz). Ranks 26-30 ($bn): TMO 262, ACN 261, XOM 258, KO 256, COST 252. Next (not included): Salesforce (CRM) 250, Abbott Laboratories (ABT) 249, PepsiCo (PEP) 240, AbbVie (ABBV) 238. Gap #30 vs #31: 0.6% -> last slot(s) are a near-tie, membership of the lowest 1-3 names is fuzzy."
+  },
+  "2022": {
+   "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/36405/000110465923027151/tm231735d1_ncsr.htm",
+    "https://www.finhacker.cz/en/top-20-sp-500-companies-by-market-cap/",
+    "https://stockanalysis.com/stocks/abt/market-cap/",
+    "https://stockanalysis.com/stocks/cost/market-cap/",
+    "https://stockanalysis.com/stocks/csco/market-cap/",
+    "https://stockanalysis.com/stocks/ko/market-cap/",
+    "https://stockanalysis.com/stocks/mcd/market-cap/",
+    "https://stockanalysis.com/stocks/mrk/market-cap/",
+    "https://stockanalysis.com/stocks/nke/market-cap/",
+    "https://stockanalysis.com/stocks/orcl/market-cap/",
+    "https://stockanalysis.com/stocks/pep/market-cap/",
+    "https://stockanalysis.com/stocks/tmus/market-cap/"
+   ],
+   "confidence": "mittel",
+   "comment": "All 30 sourced: Vanguard 500 Index Fund holdings at 31.12.2022 (SEC N-CSR; S&P 500 float-adjusted weights), ranked by market cap; closely held / borderline names corrected with full year-end market caps (stockanalysis.com, finhacker.cz). Ranks 26-30 ($bn): AVGO 226, ORCL 220, TMO 216, COST 203, CSCO 196. Next (not included): McDonald's (MCD) 193, Abbott Laboratories (ABT) 191, Nike (NKE) 183, T-Mobile US (TMUS) 174. Gap #30 vs #31: 1.4% -> last slot(s) are a near-tie, membership of the lowest 1-3 names is fuzzy."
+  },
+  "2023": {
+   "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/36405/000110465924029337/tm242570d1_ncsr.htm",
+    "https://www.finhacker.cz/en/top-20-sp-500-companies-by-market-cap/",
+    "https://stockanalysis.com/stocks/cvx/market-cap/",
+    "https://stockanalysis.com/stocks/intc/market-cap/",
+    "https://stockanalysis.com/stocks/ko/market-cap/",
+    "https://stockanalysis.com/stocks/mcd/market-cap/",
+    "https://stockanalysis.com/stocks/mrk/market-cap/",
+    "https://stockanalysis.com/stocks/orcl/market-cap/",
+    "https://stockanalysis.com/stocks/pep/market-cap/"
+   ],
+   "confidence": "hoch",
+   "comment": "All 30 sourced: Vanguard 500 Index Fund holdings at 31.12.2023 (SEC N-CSR; S&P 500 float-adjusted weights), ranked by market cap; closely held / borderline names corrected with full year-end market caps (stockanalysis.com, finhacker.cz). Ranks 26-30 ($bn): CRM 256, KO 255, AMD 238, PEP 234, BAC 232. Next (not included): Accenture (ACN) 220, McDonald's (MCD) 215, Intel (INTC) 212, Netflix (NFLX) 211. Gap #30 vs #31: 5.0%."
+  },
+  "2024": {
+   "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/862084/000110465925020279/tm253223d2_ncsr.htm",
+    "https://www.finhacker.cz/en/top-20-sp-500-companies-by-market-cap/",
+    "https://stockanalysis.com/stocks/crm/market-cap/",
+    "https://stockanalysis.com/stocks/csco/market-cap/",
+    "https://stockanalysis.com/stocks/cvx/market-cap/",
+    "https://stockanalysis.com/stocks/ibm/market-cap/",
+    "https://stockanalysis.com/stocks/ko/market-cap/",
+    "https://stockanalysis.com/stocks/mcd/market-cap/",
+    "https://stockanalysis.com/stocks/mrk/market-cap/",
+    "https://stockanalysis.com/stocks/pep/market-cap/",
+    "https://stockanalysis.com/stocks/tmus/market-cap/",
+    "https://stockanalysis.com/stocks/wfc/market-cap/"
+   ],
+   "confidence": "mittel",
+   "comment": "All 30 sourced: Vanguard Institutional Index Fund holdings at 31.12.2024 (SEC N-CSR; S&P 500 float-adjusted weights), ranked by market cap; closely held / borderline names corrected with full year-end market caps (stockanalysis.com, finhacker.cz). Ranks 26-30 ($bn): KO 268, CVX 260, TMUS 256, MRK 252, CSCO 236. Next (not included): Wells Fargo (WFC) 234, PepsiCo (PEP) 209, McDonald's (MCD) 208, IBM (IBM) 203. Gap #30 vs #31: 0.8% -> last slot(s) are a near-tie, membership of the lowest 1-3 names is fuzzy. Schedule read in two text chunks of the filing."
+  },
+  "2025": {
+   "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/862084/000110465926021504/tm263123d2_ncsr.htm",
+    "https://www.finhacker.cz/en/top-20-sp-500-companies-by-market-cap/",
+    "https://stockanalysis.com/stocks/cost/market-cap/",
+    "https://stockanalysis.com/stocks/csco/market-cap/",
+    "https://stockanalysis.com/stocks/cvx/market-cap/",
+    "https://stockanalysis.com/stocks/hd/market-cap/",
+    "https://stockanalysis.com/stocks/ibm/market-cap/",
+    "https://stockanalysis.com/stocks/ko/market-cap/",
+    "https://stockanalysis.com/stocks/ms/market-cap/",
+    "https://stockanalysis.com/stocks/unh/market-cap/"
+   ],
+   "confidence": "mittel",
+   "comment": "All 30 sourced: Vanguard Institutional Index Fund holdings at 31.12.2025 (SEC N-CSR; S&P 500 float-adjusted weights), ranked by market cap; closely held / borderline names corrected with full year-end market caps (stockanalysis.com, finhacker.cz). Ranks 26-30 ($bn): GE 325, MU 320, CVX 307, CSCO 304, KO 301. Next (not included): UnitedHealth Group (UNH) 299, Wells Fargo (WFC) 293, Morgan Stanley (MS) 282, IBM (IBM) 277. Gap #30 vs #31: 0.6% -> last slot(s) are a near-tie, membership of the lowest 1-3 names is fuzzy."
+  }
+ },
+ "unavailable": [
+  {
+   "name": "Wachovia",
+   "ticker_then": "WB",
+   "years": [
+    "2005",
+    "2006"
+   ],
+   "reason": "acquired by Wells Fargo 12/2008, no Yahoo history (Yahoo ticker WB is Weibo today - do not use)"
+  },
+  {
+   "name": "Time Warner",
+   "ticker_then": "TWX",
+   "years": [
+    "2005",
+    "2006"
+   ],
+   "reason": "acquired by AT&T 6/2018, delisted, no Yahoo history"
+  }
+ ]
+}
