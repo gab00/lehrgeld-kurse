@@ -37,14 +37,14 @@ for sym, name in [("^GSPC", "sp500"), ("^SP500TR", "sp500tr"), ("^IXIC", "nasdaq
 
 (OUT / "stocks").mkdir(exist_ok=True)
 alle = list(UNIVERSUM)
-hist = OUT / "top30_history.json"
-if hist.exists():
-    import json
-    for liste in json.loads(hist.read_text()).get("lists", {}).values():
-        for e in liste:
-            t = e.get("yahoo_today")
-            if t and t not in alle:
-                alle.append(t)
+import json
+for hist in (OUT / "top30_history.json", OUT / "top100_history.json"):
+    if hist.exists():
+        for liste in json.loads(hist.read_text()).get("lists", {}).values():
+            for e in liste:
+                t = e.get("yahoo_today")
+                if t and t not in alle:
+                    alle.append(t)
 for sym in alle:
     for versuch in range(3):
         try:
