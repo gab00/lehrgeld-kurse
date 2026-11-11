@@ -16,6 +16,9 @@ Aufruf:
     SP500=<csv> MARKTFILTER=<n>  neue Signale nur, wenn der S&P 500 (date,…,close) über
                  seinem n-Tage-Durchschnitt schließt
     EARNINGS=<ordner>  <SYMBOL>.csv mit Spalte date: Quartalstermine für die 7-Tage-Sperre
+    SP500=<csv> RELSTAERKE=<n>  neue Signale nur für Aktien, die in den letzten n Handelstagen
+                 stärker gestiegen sind als der S&P 500
+    ZIEL_R=<x>   Kursziel bei x R statt 2 R
     UNIVERSUM=<json>   {"lists": {"2005": [{"yahoo_today": "XOM"}, …], …}}: im Jahr J sind nur
                  die Aktien der Liste vom Jahresende J−1 handelbar (statt aller Dateien)
 
@@ -56,6 +59,11 @@ def main():
             summe += c
             if i >= n: summe -= sp[i - n][1]
             if i >= n - 1: markt_ok[d] = c > summe / n
+
+    # Relative Stärke: Schlusskurse des S&P 500 je Datum
+    rel_n = int(opts['RELSTAERKE']) if 'RELSTAERKE' in opts else None
+    sp_c = {r['date']: float(r['close']) for r in csv.DictReader(open(opts['SP500']))} if rel_n else None
+    ziel_r = float(opts['ZIEL_R']) if 'ZIEL_R' in opts else None
 
     # Quartalstermine je Aktie (aufsteigend)
     termine = None
@@ -106,6 +114,17 @@ def main():
                 tl = termine.get(s, [])
                 k = bisect.bisect_left(tl, heute)
                 earn[s] = tl[k] if k < len(tl) else None
+        if rel_n:
+            # Schwächere Aktien als der Index bekommen kein neues Signal (über die Sperre der Engine)
+            for s2, rows in sicht.items():
+                if s2 in gebunden:
+                    continue
+                ok = False
+                if len(rows) > rel_n:
+                    a, b = sp_c.get(rows[-1 - rel_n]['d']), sp_c.get(rows[-1]['d'])
+                    ok = bool(a and b) and rows[-1]['c'] / rows[-1 - rel_n]['c'] > b / a
+                if not ok:
+                    earn[s2] = heute
         state = {'heute': heute, 'settings': {'startkapital': start_k, 'risikoPct': risiko, 'phase': 'papier'},
                  'trades': trades, 'signale': signale, 'earnings': earn}
         with open(tmp.name, 'w') as f: json.dump(state, f)
@@ -119,7 +138,16 @@ def main():
                 if t['id'] == x['id']: t.update(ausstieg=x['ausstieg'], datumAus=x['datumAus'], grund=x['grund'])
         weg = {f['signal_id'] for f in plan['fills']} | {c['id'] for c in plan['cancels']}
         for f in plan['fills']:
-            trades.append(dict(f['trade'], id=f['trade_id'], gebuehren=2 * gebuehr))
+            tr = dict(f['trade'], id=f['trade_id'], gebuehren=2 * gebuehr)
+            if ziel_r:
+                z = round(tr['einstieg'] + ziel_r * (tr['einstieg'] - tr['stop']), 2)
+                # Am Einstiegstag schon am 2R-Ziel verkauft? Mit dem neuen Ziel neu entscheiden.
+                if tr['ausstieg'] is not None and tr['ausstieg'] == tr['ziel'] and sicht[tr['ticker']][-1]['h'] < z:
+                    tr.update(ausstieg=None, datumAus=None)
+                elif tr['ausstieg'] is not None and tr['ausstieg'] == tr['ziel']:
+                    tr['ausstieg'] = z
+                tr['ziel'] = z
+            trades.append(tr)
         signale = [s for s in signale if s['id'] not in weg]
         for s in plan['neue_signale']:
             if (markt_ok is not None and not markt_ok.get(heute, False)) or (erlaubt is not None and s['ticker'] not in erlaubt):
