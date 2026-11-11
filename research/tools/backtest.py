@@ -19,6 +19,10 @@ Aufruf:
     SP500=<csv> RELSTAERKE=<n>  neue Signale nur für Aktien, die in den letzten n Handelstagen
                  stärker gestiegen sind als der S&P 500
     ZIEL_R=<x>   Kursziel bei x R statt 2 R
+    TREND_STEIGT=<n>  neue Signale nur, wenn die 200-Tage-Linie der Aktie höher liegt als vor n Tagen
+    VOLUMEN=<n>  neue Signale nur, wenn der Umsatz am Signaltag über dem Schnitt der n Tage davor liegt
+    SAISON=<m,m,…>  neue Signale nur in diesen Monaten (z. B. 11,12,1,2,3,4)
+    BREAKEVEN=<x>  Stop auf den Einstiegskurs nachziehen, sobald der Schlusskurs x R im Plus liegt
     UNIVERSUM=<json>   {"lists": {"2005": [{"yahoo_today": "XOM"}, …], …}}: im Jahr J sind nur
                  die Aktien der Liste vom Jahresende J−1 handelbar (statt aller Dateien)
 
@@ -64,6 +68,15 @@ def main():
     rel_n = int(opts['RELSTAERKE']) if 'RELSTAERKE' in opts else None
     sp_c = {r['date']: float(r['close']) for r in csv.DictReader(open(opts['SP500']))} if rel_n else None
     ziel_r = float(opts['ZIEL_R']) if 'ZIEL_R' in opts else None
+    trend_n = int(opts['TREND_STEIGT']) if 'TREND_STEIGT' in opts else None
+    vol_n = int(opts['VOLUMEN']) if 'VOLUMEN' in opts else None
+    saison = {int(m) for m in opts['SAISON'].split(',')} if 'SAISON' in opts else None
+    breakeven = float(opts['BREAKEVEN']) if 'BREAKEVEN' in opts else None
+    vol = {}
+    if vol_n:
+        for fn in os.listdir(stocks):
+            if fn.endswith('.csv'):
+                vol[fn[:-4].upper()] = {r['timestamp']: float(r['volume'] or 0) for r in csv.DictReader(open(os.path.join(stocks, fn)))}
 
     # Quartalstermine je Aktie (aufsteigend)
     termine = None
@@ -114,15 +127,25 @@ def main():
                 tl = termine.get(s, [])
                 k = bisect.bisect_left(tl, heute)
                 earn[s] = tl[k] if k < len(tl) else None
-        if rel_n:
-            # Schwächere Aktien als der Index bekommen kein neues Signal (über die Sperre der Engine)
+        if rel_n or trend_n or vol_n or saison:
+            # Aktien, die einen Filter nicht bestehen, bekommen kein neues Signal (über die Sperre der Engine)
             for s2, rows in sicht.items():
                 if s2 in gebunden:
                     continue
-                ok = False
-                if len(rows) > rel_n:
-                    a, b = sp_c.get(rows[-1 - rel_n]['d']), sp_c.get(rows[-1]['d'])
-                    ok = bool(a and b) and rows[-1]['c'] / rows[-1 - rel_n]['c'] > b / a
+                ok = True
+                if rel_n:
+                    ok = False
+                    if len(rows) > rel_n:
+                        a, b = sp_c.get(rows[-1 - rel_n]['d']), sp_c.get(rows[-1]['d'])
+                        ok = bool(a and b) and rows[-1]['c'] / rows[-1 - rel_n]['c'] > b / a
+                if ok and trend_n:
+                    ok = len(rows) >= 200 + trend_n and \
+                        sum(r['c'] for r in rows[-200:]) > sum(r['c'] for r in rows[-200 - trend_n:-trend_n])
+                if ok and vol_n:
+                    v, dd = vol.get(s2, {}), [r['d'] for r in rows[-1 - vol_n:]]
+                    ok = len(dd) == vol_n + 1 and v.get(dd[-1], 0) > sum(v.get(d, 0) for d in dd[:-1]) / vol_n
+                if ok and saison:
+                    ok = int(heute[5:7]) in saison
                 if not ok:
                     earn[s2] = heute
         state = {'heute': heute, 'settings': {'startkapital': start_k, 'risikoPct': risiko, 'phase': 'papier'},
@@ -148,6 +171,12 @@ def main():
                     tr['ausstieg'] = z
                 tr['ziel'] = z
             trades.append(tr)
+        if breakeven:
+            for t in trades:
+                if t.get('ausstieg') is None and t['ticker'] in sicht:
+                    s0 = t.setdefault('stop0', t['stop'])
+                    if t['stop'] == s0 and sicht[t['ticker']][-1]['c'] >= t['einstieg'] + breakeven * (t['einstieg'] - s0):
+                        t['stop'] = round(t['einstieg'] - 0.01, 2)   # ein Cent darunter, damit die Engine nicht durch null teilt
         signale = [s for s in signale if s['id'] not in weg]
         for s in plan['neue_signale']:
             if (markt_ok is not None and not markt_ok.get(heute, False)) or (erlaubt is not None and s['ticker'] not in erlaubt):
@@ -170,7 +199,7 @@ def main():
 
     zu = archiv + [t for t in trades if t.get('ausstieg') is not None]
     pnl = [eng.pnl(t) for t in zu]
-    rs = [p / ((t['einstieg'] - t['stop']) * t['stueck']) for p, t in zip(pnl, zu)]
+    rs = [p / ((t['einstieg'] - t.get('stop0', t['stop'])) * t['stueck']) for p, t in zip(pnl, zu)]
     gew = sum(p for p in pnl if p > 0); verl = -sum(p for p in pnl if p <= 0)
     peak, mdd = kapital, 0.0
     for _, e in konto_verlauf:
