@@ -69,3 +69,27 @@ Wertung am Ende: dieselben sechs Freigabe-Kriterien wie bei System A, dazu der V
 mit Kaufen und Halten eines S&P-500-ETF nach Kosten.
 
 Nur für den privaten Gebrauch. Keine Anlageberatung.
+
+## Ergebnis Schritt 1 (11.11.2026): nicht bestanden
+
+Engine `engine_b.py`, SHA-256 `514c9089e0e721095d35d00739d655a300e928fe3c67987015ad8862aa5672a8`,
+Commit `0332d1b` (vor dem Test). Ein Lauf, keine Wiederholung mit anderen Schwellen.
+
+| Lauf | Trades | Trefferquote | Erwartungswert | Max. Drawdown | Rendite p. a. |
+|---|---|---|---|---|---|
+| **B1 mit 1 € je Order (Urteil)** | 233 | 18,5 % | −2,38 R | 100 % (Konto im Dez. 2013 aufgebraucht) | – |
+| B1 ohne Gebühren (Einordnung) | 878 | 49,4 % | +0,024 R | 30,2 % | 0,9 % |
+| System A ohne Gebühren (Einordnung) | 1150 | 45,3 % | +0,04 R | 28,1 % | 1,8 % |
+| S&P 500 mit Dividenden halten | – | – | – | 55,3 % | 11,0 % |
+
+- Beide Schwellen verfehlt (Erwartungswert über 0 R, Drawdown höchstens 25 %).
+- Im Gebührenlauf: 466 € Gebühren gegenüber −35 € Kursergebnis. Bei 500 € Konto und 1 % Risiko
+  kosten Kauf und Verkauf zusammen 0,4 R je Trade, mit schrumpfendem Konto immer mehr.
+- Auch ohne Gebühren liegt der Drawdown über der Grenze und der Vorteil ist praktisch null.
+- System A mit 1 € je Order wird im selben Zeitraum ebenfalls von den Gebühren aufgezehrt.
+- Alle 878 Trades des gebührenfreien Laufs wurden unabhängig aus den Rohkursen nachgerechnet, ohne Abweichung.
+
+Folge laut Vorab-Festlegung: System B Version B1 wird nicht gebaut. Kein Schattenlauf.
+
+Beobachtung, kein Ergebnis: Die 39 Panik-Tag-Trades lagen ohne Gebühren bei +0,16 R, die übrigen 839 bei +0,02 R.
+39 Trades sind zu wenig für einen Schluss. Das wäre eine neue Hypothese (B2) mit eigener Vorab-Festlegung.
