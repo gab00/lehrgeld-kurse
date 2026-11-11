@@ -4,6 +4,8 @@
 Schreibt je Aktie data/<SYMBOL>.csv im Format
     timestamp,open,high,low,close,volume   (neueste Zeile zuerst)
 und data/_status.json mit Zeitpunkt, letztem Handelstag und fehlenden Aktien.
+Dazu data/earnings.json: der nächste Quartalszahlen-Termin je Aktie (für die
+7-Tage-Sperre vor Quartalszahlen).
 
 Kurse sind split-bereinigt, aber nicht dividendenbereinigt, damit der letzte
 Tag den echten Börsenkursen entspricht.
@@ -56,6 +58,48 @@ def schreibe(symbol, df, ordner=None):
     return df.index.max().strftime("%Y-%m-%d")
 
 
+def hole_termine():
+    """Nächster Quartalszahlen-Termin je Aktie laut Yahoo.
+
+    termine[SYM] = "JJJJ-MM-TT" oder None (Yahoo kennt noch keinen Termin).
+    Aktien, bei denen der Abruf scheitert, fehlen in termine und stehen in fehler.
+    """
+    heute = datetime.now(timezone.utc).date()
+    termine, fehler = {}, []
+    for sym in UNIVERSUM:
+        try:
+            cal = yf.Ticker(sym).calendar or {}
+            tage = cal.get("Earnings Date") or []
+            if not isinstance(tage, (list, tuple)):
+                tage = [tage]
+            tage = [t.date() if isinstance(t, datetime) else t for t in tage]
+            kommend = sorted(t for t in tage if hasattr(t, "isoformat") and t >= heute)
+            termine[sym] = kommend[0].isoformat() if kommend else None
+        except Exception as e:
+            print(f"{sym}: Quartalstermin nicht abrufbar: {e}", file=sys.stderr)
+            fehler.append(sym)
+        time.sleep(0.5)
+    return termine, fehler
+
+
+def schreibe_termine():
+    """Schreibt data/earnings.json. Scheitert der Abruf weitgehend, bleibt die alte Datei stehen."""
+    try:
+        termine, fehler = hole_termine()
+    except Exception as e:
+        print(f"Quartalstermine: {e}", file=sys.stderr)
+        return None
+    if len(termine) < len(UNIVERSUM) // 2:
+        return None
+    (DATA / "earnings.json").write_text(json.dumps({
+        "aktualisiert": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "quelle": "Yahoo Finance (Kalender) über yfinance " + yf.__version__,
+        "termine": termine,
+        "fehler": fehler,
+    }, indent=1, ensure_ascii=False) + "\n")
+    return {"mit_termin": sum(1 for v in termine.values() if v), "ohne_termin": sum(1 for v in termine.values() if not v), "fehler": fehler}
+
+
 def main():
     DATA.mkdir(exist_ok=True)
     ok, fehlend, letzte = [], [], {}
@@ -80,6 +124,7 @@ def main():
         "fehlend": fehlend,
         "letzter_tag_je_aktie": letzte,
         "extras": extras,
+        "quartalstermine": schreibe_termine(),
         "quelle": "Yahoo Finance über yfinance " + yf.__version__,
     }
     (DATA / "_status.json").write_text(json.dumps(status, indent=1, ensure_ascii=False) + "\n")
