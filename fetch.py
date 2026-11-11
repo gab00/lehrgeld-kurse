@@ -23,6 +23,12 @@ UNIVERSUM = [
     "JPM", "WMT", "AMD", "V", "XOM", "JNJ", "MA", "INTC", "ABBV", "CSCO",
     "BAC", "AMAT", "COST", "CAT", "CVX", "UNH", "LRCX", "GE", "KO", "PG",
 ]
+# Zweites Papierdepot: die 100 größten US-Aktien (Liste als Datei, einmal im Jahr zu erneuern)
+try:
+    UNIVERSUM100 = json.loads((Path(__file__).parent / "data" / "universum100.json").read_text())["aktien"]
+except Exception:
+    UNIVERSUM100 = []
+ALLE = UNIVERSUM + [s for s in UNIVERSUM100 if s not in UNIVERSUM]
 # Zusatzreihen für den Vergleich mit dem echten Depot (nicht für Handelsentscheidungen)
 EXTRAS = {"SP500": "^GSPC", "EURUSD": "EURUSD=X"}
 ZEITRAUM = "15mo"      # reicht für die 200-Tage-Linie plus Rückblick
@@ -66,7 +72,7 @@ def hole_termine():
     """
     heute = datetime.now(timezone.utc).date()
     termine, fehler = {}, []
-    for sym in UNIVERSUM:
+    for sym in ALLE:
         try:
             cal = yf.Ticker(sym).calendar or {}
             tage = cal.get("Earnings Date") or []
@@ -89,7 +95,7 @@ def schreibe_termine():
     except Exception as e:
         print(f"Quartalstermine: {e}", file=sys.stderr)
         return None
-    if len(termine) < len(UNIVERSUM) // 2:
+    if len(termine) < len(ALLE) // 2:
         return None
     (DATA / "earnings.json").write_text(json.dumps({
         "aktualisiert": datetime.now(timezone.utc).isoformat(timespec="seconds"),
@@ -103,7 +109,7 @@ def schreibe_termine():
 def main():
     DATA.mkdir(exist_ok=True)
     ok, fehlend, letzte = [], [], {}
-    for sym in UNIVERSUM:
+    for sym in ALLE:
         df = hole(sym)
         if df is None:
             fehlend.append(sym)
@@ -130,7 +136,7 @@ def main():
     (DATA / "_status.json").write_text(json.dumps(status, indent=1, ensure_ascii=False) + "\n")
     print(json.dumps({k: status[k] for k in ("letzter_handelstag", "fehlend")}))
     # Nur scheitern, wenn fast nichts kam – einzelne Ausfälle fängt die Auswertung ab.
-    if len(ok) < len(UNIVERSUM) // 2:
+    if len(ok) < len(ALLE) // 2:
         sys.exit(1)
 
 
