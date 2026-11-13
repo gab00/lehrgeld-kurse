@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-13T09:55:32+00:00",
+ "aktualisiert": "2026-11-13T12:07:21+00:00",
  "quelle": "Yahoo Finance (Kalender) über yfinance 1.8.0",
  "termine": {
   "NVDA": "2026-11-17",
@@ -21,9 +21,9 @@
   "MA": "2027-01-28",
   "INTC": "2027-01-28",
   "ABBV": null,
-  "CSCO": null,
+  "CSCO": "2027-02-10",
   "BAC": "2027-01-15",
-  "AMAT": null,
+  "AMAT": "2027-02-11",
   "COST": "2026-12-10",
   "CAT": "2027-01-28",
   "CVX": "2027-01-29",
