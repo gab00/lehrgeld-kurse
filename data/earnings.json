@@ -1,8 +1,8 @@
 {
- "aktualisiert": "2026-11-17T13:09:56+00:00",
+ "aktualisiert": "2026-11-18T03:00:00+00:00",
  "quelle": "Yahoo Finance (Kalender) über yfinance 1.8.0",
  "termine": {
-  "NVDA": "2026-11-17",
+  "NVDA": null,
   "AAPL": "2027-01-28",
   "GOOGL": null,
   "MSFT": "2027-01-27",
@@ -35,7 +35,7 @@
   "BRK-B": null,
   "PLTR": "2027-02-01",
   "NFLX": "2027-01-19",
-  "HD": "2026-11-17",
+  "HD": null,
   "ORCL": "2026-12-14",
   "WFC": "2027-01-14",
   "IBM": "2027-01-27",
@@ -49,7 +49,7 @@
   "MCD": null,
   "MS": "2027-01-14",
   "C": "2027-01-14",
-  "DIS": "2026-11-17",
+  "DIS": null,
   "ISRG": "2027-01-21",
   "LIN": null,
   "AXP": "2027-01-29",
