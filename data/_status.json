@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-18T10:33:59+00:00",
+ "aktualisiert": "2026-11-18T12:58:46+00:00",
  "letzter_handelstag": "2026-11-17",
  "ok": [
   "NVDA",
@@ -211,8 +211,8 @@
   "EURUSD": "2026-11-18"
  },
  "quartalstermine": {
-  "mit_termin": 74,
-  "ohne_termin": 26,
+  "mit_termin": 75,
+  "ohne_termin": 25,
   "fehler": []
  },
  "quelle": "Yahoo Finance über yfinance 1.8.0"
