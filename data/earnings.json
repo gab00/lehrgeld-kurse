@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-19T12:53:28+00:00",
+ "aktualisiert": "2026-11-20T02:26:48+00:00",
  "quelle": "Yahoo Finance (Kalender) über yfinance 1.8.0",
  "termine": {
   "NVDA": null,
@@ -11,9 +11,9 @@
   "META": "2027-01-27",
   "TSLA": "2027-01-27",
   "LLY": null,
-  "MU": "2026-12-23",
+  "MU": "2026-12-17",
   "JPM": "2027-01-14",
-  "WMT": "2026-11-19",
+  "WMT": null,
   "AMD": "2027-02-02",
   "V": "2027-01-26",
   "XOM": "2027-01-29",
@@ -54,7 +54,7 @@
   "LIN": null,
   "AXP": "2027-01-29",
   "PEP": null,
-  "INTU": "2026-11-19",
+  "INTU": null,
   "QCOM": "2027-02-03",
   "APP": null,
   "GEV": "2027-01-27",
