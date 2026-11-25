@@ -1,5 +1,5 @@
 {
- "aktualisiert": "2026-11-25T09:02:38+00:00",
+ "aktualisiert": "2026-11-25T11:39:08+00:00",
  "quelle": "Yahoo Finance (Kalender) über yfinance 1.8.0",
  "termine": {
   "NVDA": null,
@@ -84,12 +84,12 @@
   "ANET": "2027-02-09",
   "LOW": null,
   "PGR": "2027-01-27",
-  "ADI": null,
+  "ADI": "2027-02-17",
   "WELL": "2027-02-09",
   "PANW": "2027-02-16",
   "HON": "2027-01-28",
   "ETN": "2027-02-02",
-  "MDT": null,
+  "MDT": "2027-02-23",
   "SYK": "2027-01-28",
   "PLD": "2027-01-20",
   "CRWD": null,
